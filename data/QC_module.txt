@@ -1,0 +1,40 @@
+Sample Inputs:
+
+Review #1a
+Professor Name: Saikat Chaudhuri
+Review: "Professor Chaudhuri does a great job of engaging students in insightful in-class discussion. His office hours are well-attended."
+Difficulty: 3.5/5.0
+Helpfulness: 4.5/5.0
+Engagement: 2.0/5.0
+Overall: 3.0/5.0
+
+Review #1b
+Professor Name: Drew Carton
+Review: "Professor Maxwell's lectures are always funny. He knew our names before we entered the clasrsoom and cares a lot about those students."
+Difficulty: 2.0/5.0
+Helpfulness: 5.0/5.0
+Engagement: 5.0/5.0
+Overall: 4.5/5.0
+
+Review #1c
+Professor Name: Raffi Amit
+Review: "Professor Amit's lectures were often esoteric, and he cold-called often in class, and was extremely strict about lateness."
+Difficulty: 4.0/5.0
+Helpfulness: 1.0/5.0
+Engagement: 1.0/5.0
+Overall: 1.0/5.0
+
+Review #1d
+Professor Name: Anne Greenhalgh
+Review: "didnt take class"
+Difficulty: 5.0/5.0
+Helpfulness: 5.0/5.0
+Engagement: 5.0/5.0
+Overall: 5.0/5.0
+
+Sample Outputs:
+
+Review #1a: Pass
+Review #1b: Fail
+Review #1c: Pass
+Review #1d: Fail
