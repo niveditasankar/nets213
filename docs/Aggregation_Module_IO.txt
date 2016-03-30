@@ -1,0 +1,53 @@
+Aggregation Module Input/Output examples:
+
+Inputs: 
+
+	Review #1a
+		Name: Saikat Chaudhuri
+		Review: "Professor Chaudhuri does a great job of engaging students in insightful in-class discussion. His office hours are well-attended."
+		Difficulty: 3.5/5.0
+		Helpfulness: 4.5/5.0
+		Engagement: 2.0/5.0
+		Overall: 3.0/5.0
+
+	Professor Profile: 
+		Name: Saikat Chaudhuri
+		Average Difficulty: 4.0
+		Average Helpfulness: 4.4
+		Average Engagement: 3.9
+		Average Overall: 4.2
+		Total ratings: 10
+		Reviews: 
+
+		"an amazing 'lecturer' - learning comes about because we discover things - not because he tells us."
+
+		"a great professor. Tough, but there is not much graded work in the course"
+
+		"I was pursuing an accounting major before taking his class and decided to switch to a career in management after taking the course. He really is a captivating professor."
+
+Output: 
+
+	Review #1a: 
+		Name: Saikat Chaudhuri
+		Review: "Professor Chaudhuri does a great job of engaging students in insightful in-class discussion. His office hours are well-attended."
+		Difficulty: 3.5/5.0
+		Helpfulness: 4.5/5.0
+		Engagement: 2.0/5.0
+		Overall: 3.0/5.0
+	
+	Professor Profile: 
+		Name: Saikat Chaudhuri
+		Average Difficulty: 3.95
+		Average Helpfulness: 4.41
+		Average Engagement: 3.73
+		Average Overall: 4.09
+		Total ratings: 11
+		Reviews: 
+
+		"Professor Chaudhuri does a great job of engaging students in insightful in-class discussion. His office hours are well-attended."
+
+		"an amazing 'lecturer' - learning comes about because we discover things - not because he tells us."
+
+		"a great professor. Tough, but there is not much graded work in the course"
+
+		"I was pursuing an accounting major before taking his class and decided to switch to a career in management after taking the course. He really is a captivating professor."
