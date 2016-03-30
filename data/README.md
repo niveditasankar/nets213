@@ -1,1 +1,1 @@
-
+– We have populated a starter list of professors. Any professors that a user wishes to submit a review for can be manually added at the time of the review submission if they do not already exist in the system.
