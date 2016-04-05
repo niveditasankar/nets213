@@ -1,37 +1,39 @@
 public class Review {
 
-	private User author;
+	private int userID;
 	private String text;
-	private double ranking;
+	private double votes;
+	private Boolean hide;
 
-	public Review(User user, String text) {
-		this.author = user;
+	public Review(int userID, String text) {
+		this.userID = userID;
 		this.text = text;
-		ranking = 0.0
-	}
-
-	public getAuthorName() {
-		return author.getName();
+		ranking = 0.0;
+		hide = false;
 	}
 
 	public getAuthorID() {
-		return author.getID();
+		return userID;
 	}
 
 	public String getText() {
 		return text;
 	}
 
-	public double getRank() {
-		return ranking;
+	public double getAggVotes() {
+		return votes;
 	}
 
 	public void voteRank(Boolean positive) {
 		if (positive) {
-			ranking += 1.0;
+			votes += 1.0;
 		}
 		else {
-			ranking -= 1.0;
+			votes -= 1.0;
 		}
+	}
+
+	public void hide() {
+		this.hide = true;
 	}
 }
