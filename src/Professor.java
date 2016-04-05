@@ -25,7 +25,7 @@ public class Professor {
 	}
 
 	//Deletes hidden review from review set
-	public void removeReview(Review r) {
+	public void remove(Review r) {
 		reviews.remove(r);
 	}
 }
