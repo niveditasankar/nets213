@@ -1,5 +1,6 @@
 public class Review {
 
+	private User user;
 	private int userID;
 	private int id;
 	private String text;
@@ -11,8 +12,9 @@ public class Review {
 	private double engagement;
 	private double overall;
 
-	public Review(int userID, int id, String text, double d, double h, double e, double o) {
-		this.userID = userID;
+	public Review(User u, int id, String text, double d, double h, double e, double o) {
+		this.user = u;
+		this.userID = u.getID();
 		this.id = id;
 		this.text = text;
 		ranking = 0.0;
@@ -47,6 +49,10 @@ public class Review {
 
 	public double getOverall() {
 		return this.overall;
+	}
+
+	public getUser() {
+		return user;
 	}
 
 	public getUserID() {

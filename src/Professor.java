@@ -28,4 +28,8 @@ public class Professor {
 	public void remove(Review r) {
 		reviews.remove(r);
 	}
+
+	public Set<Review> getReviews() {
+		return reviews;
+	}
 }

@@ -45,6 +45,10 @@ public class User {
 		return reviews.size();
 	}
 
+	public double getRank() {
+		return rank;
+	}
+
 	public void setRank(double rank) {
 		this.rank = rank;
 	}
