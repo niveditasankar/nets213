@@ -10,15 +10,15 @@ public class Professor {
 		reviews = new HashSet<Review>();
 	}
 
-	public getName() {
+	public String getName() {
 		return this.name;
 	}
 
-	public getID() {
+	public int getID() {
 		return this.id;
 	}
 
-	public addReview(Review r) {
+	public void addReview(Review r) {
 
 		//Review should be initialized just before this class
 		review.add(r);
