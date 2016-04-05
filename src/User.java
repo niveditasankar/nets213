@@ -23,12 +23,20 @@ public class User {
 
 	public addReview(Review r) {
 
-		//Review should be initialized earlier
+		/*Review should be initialized outside of this, when
+		creating the Review in the run class module / adding
+		it to Course.java, and then User.addReview(r) is called.
+		*/
+
 		// Review r = new Review(this.id, text);
 		review.add(r);
 	}
 
 	public void addHidden() {
 		numHidden += 1;
+	}
+
+	public int numReviews() {
+		return reviews.size();
 	}
 }
