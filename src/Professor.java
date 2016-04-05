@@ -59,19 +59,19 @@ public class Professor {
 		return this.overall;
 	}
 
-	public double setDifficulty(double var) {
+	public void setDifficulty(double var) {
 		this.difficulty = var;
 	}
 
-	public double setHelpfulness(double var) {
+	public void setHelpfulness(double var) {
 		this.helpfulness = var;
 	}
 
-	public double setEngagement(double var) {
+	public void setEngagement(double var) {
 		this.engagement = var;
 	}
 
-	public double setOverall(double var) {
+	public void setOverall(double var) {
 		this.overall = var;
 	}
 }
