@@ -1,6 +1,6 @@
 public class QC {
 
-	void adjustRanking(User u) {
+	private void adjustRanking(User u) {
 		int totalReviews = u.getNumReviews();
 		u.addHiddenReview();
 		int hiddenReviews = u.getHiddenReviews();
