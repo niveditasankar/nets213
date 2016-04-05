@@ -4,13 +4,14 @@ public class User {
 	private String name;
 	Set<Review> reviews;
 	int numHidden;
-
+	double rank;
 
 	public User(int id, String name) {
 		this.id = id;
 		this.name = name;
 		reviews = new HashSet<Review>();
 		numHidden = 0;
+		rank = 0.0;
 	}
 
 	public getName() {
@@ -42,5 +43,9 @@ public class User {
 
 	public int getNumReviews() {
 		return reviews.size();
+	}
+
+	public void setRank(double rank) {
+		this.rank = rank;
 	}
 }
