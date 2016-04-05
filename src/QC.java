@@ -7,10 +7,10 @@ public class QC {
 	void adjustRanking(User u) {
 		int totalReviews = u.getNumReviews();
 		int hiddenReviews = u.getHiddenReviews() + 1;
-		u.setHiddenReviews() = hiddenReviews;
-		double ratio;
-
-
+		u.setHiddenReviews(hiddenReviews);
+		double ratio = (double) (hiddenReviews / totalReviews);
+		u.setRank(ratio);
+		return;
 	}
 
 
