@@ -32,11 +32,15 @@ public class User {
 		review.add(r);
 	}
 
-	public void addHidden() {
+	public void addHiddenReview() {
 		numHidden += 1;
 	}
 
-	public int numReviews() {
+	public int getHiddenReviews() {
+		return numHidden;
+	}
+
+	public int getNumReviews() {
 		return reviews.size();
 	}
 }
