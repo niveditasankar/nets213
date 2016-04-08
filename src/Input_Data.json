@@ -1,0 +1,123 @@
+{
+	"review": [{
+			"id": 1,
+			"userid" : "annayang",
+			"professor": "Saikat Chaudhuri",
+			"text": "Professor Chaudhuri does a great job of engaging students in insightful in-class discussion. His office hours are well-attended.",
+			"difficulty": 3.5,
+			"helpfulness": 4.5,
+			"engagement": 2.0,
+			"overall": 3.0
+		},
+
+		{
+			"id": 2,
+			"userid" : "nsankar",
+			"professor": "Drew Carton",
+			"text": "Professor Maxwell's lectures are always funny. He knew our names before we entered the clasrsoom and cares a lot about those students.",
+			"difficulty": 2.0,
+			"helpfulness": 5.0,
+			"engagement": 5.0,
+			"overall": 4.5
+		},
+
+		{
+			"id": 3,
+			"userid" : "soniali",
+			"professor": "Raffi Amit",
+			"text": "Professor Amit's lectures were often esoteric, and he cold-called often in class, and was extremely strict about lateness.",
+			"difficulty": 4.0,
+			"helpfulness": 1.0,
+			"engagement": 1.0,
+			"overall": 1.0
+		},
+
+		{
+			"id": 4,
+			"userid" : "annayang",
+			"professor": "Anne Greenhalgh",
+			"text": "didnt take class",
+			"difficulty": 5.0,
+			"helpfulness": 5.0,
+			"engagement": 5.0,
+			"overall": 5.0
+		},
+
+		{
+			"id": 5,
+			"userid" : "zhusteph",
+			"professor": "Adam Grant",
+			"text": "Professor Grant is a great professor. He seems to care about his students.",
+			"difficulty": 5.0,
+			"helpfulness": 5.0,
+			"engagement": 5.0,
+			"overall": 5.0
+		},
+
+		{
+			"id": 6,
+			"userid" : "nsankar",
+			"professor": "Peter Fader",
+			"text": "Professor Fader was kinda okay.",
+			"difficulty": 3.0,
+			"helpfulness": 4.0,
+			"engagement": 3.0,
+			"overall": 3.5
+		},
+
+		{
+			"id": 7,
+			"userid" : "soniali",
+			"professor": "Keith Niedermeier",
+			"text": "professor nedermier was an okay professor; he thought his jokes were funny",
+			"difficulty": 1.0,
+			"helpfulness": 2.0,
+			"engagement": 3.0,
+			"overall": 3.0
+		},
+
+		{
+			"id": 8,
+			"userid" : "soniali",
+			"professor": "Cassie Mogilner",
+			"text": "Professor Mogilner was a fantastic professor and really wanted to help students improve their personal branding!!",
+			"difficulty": 1.0,
+			"helpfulness": 5.0,
+			"engagement": 5.0,
+			"overall": 5.0
+		},
+
+		{
+			"id": 9,
+			"userid" : "nsankar",
+			"professor": "Saikat Chaudhuri",
+			"text": "Awesome professor, his lectures were pretty cool.",
+			"difficulty": 4.5,
+			"helpfulness": 3.5,
+			"engagement": 5.0,
+			"overall": 4.0
+		},
+
+		{
+			"id" : 10,
+			"userid" : "annayang",
+			"professor": "Drew Carton",
+			"text": "Drew Carton was great! So little hw in this class.",
+			"difficulty": 3.0,
+			"helpfulness": 4.0,
+			"engagement": 5.0,
+			"overall": 4.5
+		},
+
+		{
+			"id": 11,
+			"userid" : "zhusteph",
+			"professor": "Raffi Amit",
+			"text": "Professor Amit was the worst.",
+			"difficulty": 2.0,
+			"helpfulness": 1.0,
+			"engagement": 1.0,
+			"overall": 2.0
+		}
+	]
+}
