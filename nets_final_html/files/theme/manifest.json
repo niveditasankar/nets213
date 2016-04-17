@@ -1,0 +1,15 @@
+ {
+	"responsive": true,
+	"tmpSocialIconFont": true,
+	"enableEditorJS": true,
+	"description": "Saucy gives your website an impressive look that screams professional eCommerce site. With your logo in the header text aligned to the left and your products featured on the right, you can build a modern store layout that drives sales.",
+	"features": [
+		"responsive",
+		"css-buttons",
+		"social-icons",
+		"full-width-header",
+		"Fixed Header",
+		"navigation-top",
+		"color-palettes"
+	]
+}
