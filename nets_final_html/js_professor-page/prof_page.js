@@ -18,6 +18,11 @@ function pull_info(){
 	var adjusted_prof_name; //figure out how to remove spaces and replace with %20	
 	
 	var prof_ref = new Firebase(("https://penn-prof-review.firebaseio.com/Professor/").concat(final_prof_name));
+	
+	ref.on("child_added", function(snapshot, prevChildKey) {
+		var newPost = snapshot.val();
+  		console.log("Review: " + newPost.name);
+	});
 
 	var num_reviews = 
 
