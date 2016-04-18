@@ -51,3 +51,25 @@ function pull_info(){
 
 
 };
+
+
+function upvote() {
+	var review_id;
+	var ref_string = ("https://penn-prof-review.firebaseio.com/Review/").concat(review_id);
+
+	var ref = new Firebase(ref_string);
+
+	ref.on("value", function(snapshot) {
+		var new_upvotes = ref.child("review_id") + 1;
+		ref.update({
+			"upvotes" : new_upvotes
+		});
+	
+	}, function (errorObject) {
+	  console.log("The read failed: " + errorObject.code);
+	});
+};
+
+function downvote() {
+
+};
