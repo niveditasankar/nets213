@@ -25,22 +25,24 @@ function pull_info(){
 	
 	
 
-	prof_ref.on("child_added", function(snapshot, prevChildKey) {
-		var newPost = snapshot.val();
-  		// console.log("Review: " + newPost.review_id;
-  		window.alert(newPost.review_id);
-	});
+	// prof_ref.on("child_added", function(snapshot, prevChildKey) {
+	// 	var newPost = snapshot.val();
+ //  		// console.log("Review: " + newPost.review_id;
+ //  		window.alert(newPost.review_id);
+	// });
 
-	window.alert("review");
+	
 
 // 	window.alert(final_prof_name);
 
-// 	prof_ref.on("value", function(snapshot) {
-//   console.log(snapshot.val());
-//   window.alert(snapshot.val());
-// }, function (errorObject) {
-//   console.log("The read failed: " + errorObject.code);
-// });
+	prof_ref.on("value", function(snapshot) {
+  console.log(snapshot.val());
+  window.alert(snapshot.val());
+}, function (errorObject) {
+  console.log("The read failed: " + errorObject.code);
+});
+
+	window.alert("review");
 
 // 	prof_ref.once("value", function(snapshot) {
 //   // The callback function will only get called once since we return true
