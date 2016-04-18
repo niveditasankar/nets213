@@ -5,6 +5,7 @@ function add_review(){
   	var helpfulness_rate;
   	var engagement_rate;
   	var overall_rate;
+  	var text_review = document.getElementById("input-416972758429615473").value;
 
   	if(document.getElementById('radio-0-_difficulty').checked) {
   		difficulty_rate = 1;
@@ -30,8 +31,6 @@ function add_review(){
 	  helpfulness_rate = 5;
 	}
 
-	window.alert("hi6");
-
 	if(document.getElementById('radio-0-_engagement').checked) {
   		engagement_rate = 1;
 	} else if(document.getElementById('radio-1-_engagement').checked) {
@@ -43,8 +42,6 @@ function add_review(){
 	} else if(document.getElementById('radio-4-_engagement').checked) {
 	  engagement_rate = 5;
 	}
-
-	window.alert("hi4");
 
 	if(document.getElementById('radio-0_overall').checked) {
   		overall_rate = 1;
@@ -58,20 +55,17 @@ function add_review(){
 	  overall_rate = 5;
 	}
 
-	window.alert("hi2");
-
   	var ref = new Firebase("https://penn-prof-review.firebaseio.com");
-  	var profRef = ref.child("Professor");
-  	
-  	var reviewRef = ref.child("Review");
 
-  	window.alert("hi");
+  	var profRef = ref.child("Professor");  	
+  	var reviewRef = ref.child("Review");
 
 	var newReviewRef = reviewRef.push({
 		prof_name : prof_name_value,
 		difficulty : difficulty_rate,
 		helpfulness : helpfulness_rate,
-		engagement : engagement_rate
+		engagement : engagement_rate,
+		review : text_review
 	});
 
 	window.alert("hi1");
