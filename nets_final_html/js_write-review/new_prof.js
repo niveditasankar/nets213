@@ -63,73 +63,87 @@ function add_review(){
 		}
 	  	
 
-	  	var profRef = ref.child("Professor");  	
-	  	var reviewRef = ref.child("Review");
+var prof_name_value = document.getElementById("input-948407724571952700").value;
+	  	var difficulty_rate;
+	  	var helpfulness_rate;
+	  	var engagement_rate;
+	  	var overall_rate;
+	  	var text_review
 
-		var newReviewRef = reviewRef.push({
-			prof_name : prof_name_value,
-			difficulty : difficulty_rate,
-			helpfulness : helpfulness_rate,
-			engagement : engagement_rate,
-			review : text_review
-		});
+	  	if (prof_name_value=="" || !difficulty_rate || !helpfulness_rate || !engagement_rate || !overall_rate || text_review == "") {
+	  		window.alert("Please fill in all fields.");
+	  	}
 
-		var postID = newReviewRef.key()
+	  	else {
+	  		var profRef = ref.child("Professor");  	
+		  	var reviewRef = ref.child("Review");
 
-		var prof_lookup = ("https://penn-prof-review.firebaseio.com/Professor/").concat(prof_name_value);
-		var user_lookup = ("https://penn-prof-review.firebaseio.com/User/").concat(authData.uid);
-		var review_lookup = ("https://penn-prof-review.firebaseio.com/Review/").concat(postID);
-		var ref_prof = new Firebase(prof_lookup);
-		var ref_user = new Firebase(user_lookup);
-		var ref_review = new Firebase(review_lookup);
+			var newReviewRef = reviewRef.push({
+				prof_name : prof_name_value,
+				difficulty : difficulty_rate,
+				helpfulness : helpfulness_rate,
+				engagement : engagement_rate,
+				review : text_review
+			});
 
-		// window.alert("Welp");
+			var postID = newReviewRef.key()
 
-		ref_prof.once("value", function(snapshot) {
-			// window.alert("1");
-			if (snapshot.exists()) {
-				// window.alert("2");
- 
- 			// if time, figure out how to remove reviews
- 			// 	window.alert("removing?");
+			var prof_lookup = ("https://penn-prof-review.firebaseio.com/Professor/").concat(prof_name_value);
+			var user_lookup = ("https://penn-prof-review.firebaseio.com/User/").concat(authData.uid);
+			var review_lookup = ("https://penn-prof-review.firebaseio.com/Review/").concat(postID);
+			var ref_prof = new Firebase(prof_lookup);
+			var ref_user = new Firebase(user_lookup);
+			var ref_review = new Firebase(review_lookup);
 
+			// window.alert("Welp");
 
-				// var remove_review_text = ("https://.firebaseio.com/Professor/").concat(prof_name_value).concat("/").concat(authData.uid).concat("/").concat(review_id);
-				// //var remove_review = new Firebase(remove_review_text);
-
-				// remove_review_text.remove();
-
-				// window.alert("removed");
-
-				ref_prof.child(authData.uid).set({
-					review_id: postID
-				});
-				window.alert("3");
-				ref_user.child(prof_name_value).set({
-					review_id: postID
-				});
-				// window.alert("ermagerd1");
-			}
-			else {
-				// window.alert("4");
-				ref_prof.set({
-					name: prof_name_value
-				});
-				// window.alert("7");
-				ref_prof.child(authData.uid).set({
-					review_id: postID
-				});
-				// window.alert("5");
-				ref_user.child(prof_name_value).set({
-					review_id: postID
-				});
-				// window.alert("ermagerd");
-			}
-		});
+			ref_prof.once("value", function(snapshot) {
+				// window.alert("1");
+				if (snapshot.exists()) {
+					// window.alert("2");
+	 
+	 			// if time, figure out how to remove reviews
+	 			// 	window.alert("removing?");
 
 
-		window.alert("success!");
+					// var remove_review_text = ("https://.firebaseio.com/Professor/").concat(prof_name_value).concat("/").concat(authData.uid).concat("/").concat(review_id);
+					// //var remove_review = new Firebase(remove_review_text);
 
+					// remove_review_text.remove();
+
+					// window.alert("removed");
+
+					ref_prof.child(authData.uid).set({
+						review_id: postID
+					});
+					window.alert("3");
+					ref_user.child(prof_name_value).set({
+						review_id: postID
+					});
+					// window.alert("ermagerd1");
+				}
+				else {
+					// window.alert("4");
+					ref_prof.set({
+						name: prof_name_value
+					});
+					// window.alert("7");
+					ref_prof.child(authData.uid).set({
+						review_id: postID
+					});
+					// window.alert("5");
+					ref_user.child(prof_name_value).set({
+						review_id: postID
+					});
+					// window.alert("ermagerd");
+				}
+			});
+
+
+			window.alert("success!");
+		}
+
+	  	
 
 	} else {
 
