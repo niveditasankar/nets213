@@ -83,7 +83,9 @@ var prof_name_value = document.getElementById("input-948407724571952700").value;
 				difficulty : difficulty_rate,
 				helpfulness : helpfulness_rate,
 				engagement : engagement_rate,
-				review : text_review
+				review : text_review,
+				upvotes : 0,
+				downvotes : 0
 			});
 
 			var postID = newReviewRef.key()
@@ -141,6 +143,8 @@ var prof_name_value = document.getElementById("input-948407724571952700").value;
 					// window.alert("ermagerd");
 				}
 			});
+
+			location.reload();
 
 		}
 
