@@ -61,13 +61,10 @@ function add_review(){
 		} else if(document.getElementById('radio-4_overall').checked) {
 		  overall_rate = 5;
 		}
-
 	  	
 
 	  	var profRef = ref.child("Professor");  	
 	  	var reviewRef = ref.child("Review");
-	  	
-
 
 		var newReviewRef = reviewRef.push({
 			prof_name : prof_name_value,
@@ -77,14 +74,63 @@ function add_review(){
 			review : text_review
 		});
 
-		window.alert("hi1");
-
 		var postID = newReviewRef.key()
+
+		var prof_lookup = ("https://penn-prof-review.firebaseio.com/Professor/").concat(prof_name_value);
+		var user_lookup = ("https://penn-prof-review.firebaseio.com/User/").concat(authData.uid);
+		var review_lookup = ("https://penn-prof-review.firebaseio.com/Review/").concat(postID);
+		var ref_prof = new Firebase(prof_lookup);
+		var ref_user = new Firebase(user_lookup);
+		var ref_review = new Firebase(review_lookup);
+
+		// window.alert("Welp");
+
+		ref_prof.once("value", function(snapshot) {
+			// window.alert("1");
+			if (snapshot.exists()) {
+				// window.alert("2");
+ 
+ 			// if time, figure out how to remove reviews
+ 			// 	window.alert("removing?");
+
+
+				// var remove_review_text = ("https://.firebaseio.com/Professor/").concat(prof_name_value).concat("/").concat(authData.uid).concat("/").concat(review_id);
+				// //var remove_review = new Firebase(remove_review_text);
+
+				// remove_review_text.remove();
+
+				// window.alert("removed");
+
+				ref_prof.child(authData.uid).set({
+					review_id: postID
+				});
+				window.alert("3");
+				ref_user.child(prof_name_value).set({
+					review_id: postID
+				});
+				// window.alert("ermagerd1");
+			}
+			else {
+				// window.alert("4");
+				ref_prof.set({
+					name: prof_name_value
+				});
+				// window.alert("7");
+				ref_prof.child(authData.uid).set({
+					review_id: postID
+				});
+				// window.alert("5");
+				ref_user.child(prof_name_value).set({
+					review_id: postID
+				});
+				// window.alert("ermagerd");
+			}
+		});
+
 
 		window.alert("success!");
 
 
-		
 	} else {
 
 		window.alert("Please log in before submitting a review.")
