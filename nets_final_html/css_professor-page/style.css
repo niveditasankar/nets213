@@ -22,8 +22,8 @@
 
 .search_button {
 
-    background: #aeaeae;
-    color: #fff !important;
+    /*background: #aeaeae;*/
+    color: #fff !important;*/
     line-height: 1 !important;
     min-height: 36px !important;
     font-family: inherit !important;
@@ -33,6 +33,18 @@
     padding: 0.5em !important;
     margin-left: 5px;
 
+}
+
+.vote_button {
+    background: none;
+    color: #fff !important;*/
+    line-height: 1 !important;
+    font-family: inherit !important;
+    border-radius: 0.1em;
+    display: inline-block;
+    font-size: 100%;
+    padding: 0.5em !important;
+    margin-left: 5px;
 }
 
 /*.form {
