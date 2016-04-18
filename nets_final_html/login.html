@@ -178,16 +178,16 @@ var STYLE_PREFIX = 'wsite';
     <div class="login-page">
   <div class="form">
     <form class="register-form">
-      <input class="register_username" type="text" placeholder="username"/>
-      <input class="register_password" type="password" placeholder="password"/>
-      <input class="register_email" type="text" placeholder="email address"/>
-      <button class = "register_button">create</button>
+      <input id = "register_username_id" class="register_username" type="text" placeholder="username"/>
+      <input id = "register_password_id" class="register_password" type="password" placeholder="password"/>
+      <input id = "register_email_id" class="register_email" type="text" placeholder="email address"/>
+      <button onclick="register()" class = "register_button"><!-- <a href="index.html"> -->Register<!-- </a> --></button>
       <p class="message">Already registered? <a href="#">Sign In</a></p>
     </form>
     <form class="login-form">
-      <input class="login_username" type="text" placeholder="username"/>
-      <input class="login_password" type="password" placeholder="password"/>
-      <button class="login_button">login</button>
+      <input id="email_id" class="login_username" type="text" placeholder="email"/>
+      <input id = "password_id" class="login_password" type="password" placeholder="password"/>
+      <button onclick="login()" class="login_button"><!-- <a href="index.html"> -->Login<!-- </a> --></button>
       <p class="message">Not registered? <a href="#">Create an account</a></p>
     </form>
   </div>
@@ -259,7 +259,8 @@ var STYLE_PREFIX = 'wsite';
 	<script type="text/javascript" src="files/theme/mobile.js"></script>
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-        <script src="js_login/index.js"></script>
+    <script src="js_login/index.js"></script>
+    <script src="js_login/button.js"></script>
 
 
 		
