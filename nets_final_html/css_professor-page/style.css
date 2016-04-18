@@ -24,10 +24,14 @@
 
     background: #aeaeae;
     color: #fff !important;
+    line-height: 1 !important;
+    min-height: 36px !important;
+    font-family: inherit !important;
     border-radius: 0.188em;
     display: inline-block;
-    font-size: 1em !important;
-    padding: 0;
+    font-size: 100%;
+    padding: 0.5em !important;
+    margin-left: 5px;
 
 }
 
