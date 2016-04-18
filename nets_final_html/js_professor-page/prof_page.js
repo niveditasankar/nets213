@@ -37,7 +37,8 @@ function pull_info(){
 
 	prof_ref.on("value", function(snapshot) {
   console.log(snapshot.val());
-  window.alert(snapshot.val());
+  // window.alert(snapshot.val());
+  window.alert(snapshot.name());
 }, function (errorObject) {
   console.log("The read failed: " + errorObject.code);
 });
