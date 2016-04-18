@@ -1,37 +1,38 @@
 function register(){
 
+	window.alert("wooo!");
+
 	var email_val = document.getElementById("register_email_id").value;
   	var pw_val = document.getElementById("register_password_id").value;
   	var un_val = document.getElementById("register_username_id").value;
+
+  	window.alert(":(");
   
-  if (!email_val.includes('upenn.edu')) {
+	if (!email_val.includes('upenn.edu')) {
   	window.alert("This email is not a upenn.edu email address.");
   	console.log("This email is not a upenn.edu email address.")
 
-  }
-  else {
-  	var ref = new Firebase("https://penn-prof-review.firebaseio.com");
-	ref.createUser({
-	  email    : email_val,
-	  password : pw_val,
-	  // username : un_val
-	}, function(error, userData) {
-	  if (error) {
-	    console.log("Error creating user:", error);
-	    window.alert("fail :(");
-	  } else {
-
-	  	var usersRef = ref.child("User");
-
-		usersRef.child(un_val).set({
-			email : email_val
+	}
+	else {
+	  	var ref = new Firebase("https://penn-prof-review.firebaseio.com");
+	    ref.createUser({
+			email    : email_val,
+			password : pw_val,
+		}, function(error, userData) {
+		  if (error) {
+		  	window.alert("fail :(");
+		    console.log("Error creating user:", error);
+		  } else {
+		  	var usersRef = ref.child("User");
+			usersRef.child(userData.uid).set({
+				username: un_val,
+				email : email_val
+			});
+			window.alert("success!");
+		    console.log("Successfully created user account with id:", userData.uid);
+		  }
 		});
-
-	  	window.alert("success!");
-	    console.log("Successfully created user account with id:", userData.uid);
-	  }
-	});
-  }
+	}
    
 };
 
@@ -47,12 +48,10 @@ function login(){
 	  password : pw_val
 	}, function(error, authData) {
 	  if (error) {
+	  	window.alert("fail :(");
 	    console.log("Login Failed!", error);
-	    window.alert("fail :(");
 	  } else {
-
 	  	window.alert("success!");
-	
 	  	document.getElementById("loginId").innerHTML="Logout";
 
 	    console.log("Authenticated successfully with payload:", authData);
