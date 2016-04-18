@@ -1,23 +1,19 @@
 function register(){
 
-	window.alert("wooo!");
-
 	var email_val = document.getElementById("register_email_id").value;
   	var pw_val = document.getElementById("register_password_id").value;
   	var un_val = document.getElementById("register_username_id").value;
-
-  	window.alert(":(");
   
 	if (!email_val.includes('upenn.edu')) {
-  	window.alert("This email is not a upenn.edu email address.");
-  	console.log("This email is not a upenn.edu email address.")
-
+  		window.alert("This email is not a upenn.edu email address.");
+  		console.log("This email is not a upenn.edu email address.")
 	}
 	else {
 	  	var ref = new Firebase("https://penn-prof-review.firebaseio.com");
+	  	window.alert("meh!");
 	    ref.createUser({
 			email    : email_val,
-			password : pw_val,
+			password : pw_val
 		}, function(error, userData) {
 		  if (error) {
 		  	window.alert("fail :(");
@@ -36,17 +32,17 @@ function register(){
    
 };
 
-
-
 function login(){
 	var email_val = document.getElementById("email_id").value;
   	var pw_val = document.getElementById("password_id").value;
 
 	var ref = new Firebase("https://penn-prof-review.firebaseio.com");
+
 	ref.authWithPassword({
 	  email    : email_val,
 	  password : pw_val
 	}, function(error, authData) {
+		window.alert("yo!");
 	  if (error) {
 	  	window.alert("fail :(");
 	    console.log("Login Failed!", error);
