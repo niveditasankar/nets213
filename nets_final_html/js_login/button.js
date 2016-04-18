@@ -14,12 +14,19 @@ function register(){
 	ref.createUser({
 	  email    : email_val,
 	  password : pw_val,
-	  username : un_val
+	  // username : un_val
 	}, function(error, userData) {
 	  if (error) {
 	    console.log("Error creating user:", error);
 	    window.alert("fail :(");
 	  } else {
+
+	  	var usersRef = ref.child("User");
+
+		usersRef.child(un_val).set({
+			email : email_val
+		});
+
 	  	window.alert("success!");
 	    console.log("Successfully created user account with id:", userData.uid);
 	  }
@@ -43,7 +50,11 @@ function login(){
 	    console.log("Login Failed!", error);
 	    window.alert("fail :(");
 	  } else {
+
 	  	window.alert("success!");
+	
+	  	document.getElementById("loginId").innerHTML="Logout";
+
 	    console.log("Authenticated successfully with payload:", authData);
 	  }
 	});

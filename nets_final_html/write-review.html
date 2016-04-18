@@ -130,10 +130,12 @@ var STYLE_PREFIX = 'wsite';
 		</li>
 		<li id="pg874054255483529471"
 			class="wsite-menu-item-wrap"
+			style="float:right;"
 			>
 			<a href="login.html"
 				
 				class="wsite-menu-item"
+				id ="loginId"
 				>
 				Login
 			</a>
@@ -173,7 +175,7 @@ var STYLE_PREFIX = 'wsite';
 		
 		<div id="main-content" class="container"><div id='wsite-content' class='wsite-elements wsite-not-footer'>
 <div>
-				<form enctype="multipart/form-data" action="//www.weebly.com/weebly/apps/formSubmit.php"
+				<form id="form_new_prof" enctype="multipart/form-data" action="//www.weebly.com/weebly/apps/formSubmit.php"
 				method="POST" id="form-470945508166262990">
 					<div id="470945508166262990-form-parent" class="wsite-form-container"
 					style="margin-top:10px;">
@@ -243,11 +245,11 @@ var STYLE_PREFIX = 'wsite';
 <div><div class="wsite-form-field" style="margin:5px 0px 0px 0px;">
   <label class="wsite-form-label" for="input-425946452607463899">Rate this Professor's Overall Quality. <span class="form-required">*</span></label>
   <div class="wsite-form-radio-container">
-    <span class='form-radio-container'><input type='radio' id='radio-0_overall' name='_overall' value='1' /><label for='radio-0_overall'>1</label></span>
-<span class='form-radio-container'><input type='radio' id='radio-1_overall' name='_overall' value='2' /><label for='radio-1_overall'>2</label></span>
-<span class='form-radio-container'><input type='radio' id='radio-2_overall' name='_overall' value='3' /><label for='radio-2_overall'>3</label></span>
-<span class='form-radio-container'><input type='radio' id='radio-3_overall' name='_overall' value='4' /><label for='radio-3_overall'>4</label></span>
-<span class='form-radio-container'><input type='radio' id='radio-4_overall' name='_overall' value='5' /><label for='radio-4_overall'>5</label></span>
+    <span class='form-radio-container'><input type='radio' id='radio-0_overall' name='overall' value='1' /><label for='radio-0_overall'>1</label></span>
+<span class='form-radio-container'><input type='radio' id='radio-1_overall' name='overall' value='2' /><label for='radio-1_overall'>2</label></span>
+<span class='form-radio-container'><input type='radio' id='radio-2_overall' name='overall' value='3' /><label for='radio-2_overall'>3</label></span>
+<span class='form-radio-container'><input type='radio' id='radio-3_overall' name='overall' value='4' /><label for='radio-3_overall'>4</label></span>
+<span class='form-radio-container'><input type='radio' id='radio-4_overall' name='overall' value='5' /><label for='radio-4_overall'>5</label></span>
 
   </div>
   <div id="instructions-Rate this Professor's Overall Quality." class="wsite-form-instructions" style="display:none;">5 being highest quality</div>
@@ -269,7 +271,7 @@ var STYLE_PREFIX = 'wsite';
 						<input type="hidden" name="form_version" value="2" />
 						<input type="hidden" name="wsite_approved" id="wsite-approved" value="approved" />
 						<input type="hidden" name="ucfid" value="470945508166262990" />
-						<input type='submit' style='position:absolute;top:0;left:-9999px;width:1px;height:1px' /><a class='wsite-button' onclick="document.getElementById('form-470945508166262990').submit()"><span class='wsite-button-inner'>Submit</span></a>
+						<input type='submit' style='position:absolute;top:0;left:-9999px;width:1px;height:1px' /><a class='wsite-button' onclick="add_review()"><span class='wsite-button-inner'>Submit</span></a>
 					</div>
 				</form>
 			
@@ -332,6 +334,8 @@ var STYLE_PREFIX = 'wsite';
 	<script type="text/javascript" src="files/theme/plugins.js"></script>
 	<script type="text/javascript" src="files/theme/custom.js"></script>
 	<script type="text/javascript" src="files/theme/mobile.js"></script>
+	<script type="text/javascript" src="files/theme/nav_bar.js"></script>
+	<script type="text/javascript" src="js_write-review/new_prof.js"></script>
 		
 		
 	</body>
