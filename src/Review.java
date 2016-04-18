@@ -17,6 +17,7 @@ public class Review {
 		this.userID = u.getID();
 		this.id = id;
 		this.text = text;
+		this.votes = 0.0;
 		ranking = 0.0;
 		hide = false;
 
