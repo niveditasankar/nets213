@@ -103,15 +103,18 @@ var prof_name_value = document.getElementById("input-948407724571952700").value;
 					// window.alert("2");
 	 
 	 			// if time, figure out how to remove reviews
-	 			// 	window.alert("removing?");
 
+					// var remove_review_text = ((((("https://penn-prof-review.firebaseio.com/Professor/").concat(prof_name_value)).concat("/")).concat(authData.uid)).concat("/review_id"));//.concat("review_id");
+					// window.alert(remove_review_text);
+					// var remove_review = new Firebase(remove_review_text);
+					// window.alert("hi");
 
-					// var remove_review_text = ("https://.firebaseio.com/Professor/").concat(prof_name_value).concat("/").concat(authData.uid).concat("/").concat(review_id);
-					// //var remove_review = new Firebase(remove_review_text);
+					// remove_review.once("value", function(snap) {
+					// 	window.alert(snap.val());
+					// 	(new Firebase(("https://penn-prof-review.firebaseio.com/Review/").concat(snap.val()))).remove();
+					// 	window.alert("removed");
+					// });
 
-					// remove_review_text.remove();
-
-					// window.alert("removed");
 
 					ref_prof.child(authData.uid).set({
 						review_id: postID
@@ -139,8 +142,6 @@ var prof_name_value = document.getElementById("input-948407724571952700").value;
 				}
 			});
 
-
-			window.alert("success!");
 		}
 
 	  	
