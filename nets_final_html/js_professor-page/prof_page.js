@@ -19,15 +19,32 @@ function pull_info(){
 	
 	var prof_ref = new Firebase(("https://penn-prof-review.firebaseio.com/Professor/").concat(final_prof_name));
 	
-	ref.on("child_added", function(snapshot, prevChildKey) {
+	prof_ref.on("child_added", function(snapshot, prevChildKey) {
 		var newPost = snapshot.val();
-  		console.log("Review: " + newPost.name);
+  		console.log("Review: " + newPost.review_id;
+  		window.alert(newPost.review_id);
 	});
 
-	var num_reviews = 
+// 	ref.on("value", function(snapshot) {
+//   console.log(snapshot.val());
+//   window.alert(snapshot.val());
+// }, function (errorObject) {
+//   console.log("The read failed: " + errorObject.code);
+// });
+
+// 	prof_ref.once("value", function(snapshot) {
+//   // The callback function will only get called once since we return true
+//   snapshot.forEach(function(childSnapshot) {
+//     var key = childSnapshot.key();
+//     // key === "fred"
+//     return true;
+//     window.alert(snapshot.val());
+//   });
+// });
+	// var num_reviews = 
 
 	// if num_reviews == 0 or prof doesn't exist
-	// 	$(#outer-div-prof-info).show();
+		$(#outer-div-prof-info).show();
 
 
 };
