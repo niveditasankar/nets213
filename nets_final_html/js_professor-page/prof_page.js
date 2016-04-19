@@ -73,28 +73,63 @@ function pullInfo() {
 						  			var downvote_score = dataSnapshot.child("downvotes").val();
 						  			
 
-						  			window.alert(diff_score);
-						  			window.alert(eng_score);
-						  			window.alert(help_score);
-						  			window.alert(all_score);
-
 						  			total_diff = total_diff + diff_score;
 						  			total_eng += eng_score;
 						  			total_help += help_score;
 						  			total_all += all_score;
 						  			total_reviews = total_reviews + 1;
 
-						  			window.alert("total_diff" + diff_score);
-						  			window.alert("total_reviews" + total_reviews);
 
-						  			// var prof_name = professorSnapshot.child("name").val();
-						  			// var option = document.createElement("option");
-						  			// option.setAttribute("id", prof_name.concat("_id"));
-						  			// option.setAttribute("value", prof_name);
+						  			//appending review
 
-						  			// var parent = document.getElementById("prof_dropdown_id");
-						  			// parent.appendChild(option);
-						  			// document.getElementById(prof_name.concat("_id")).innerHTML = prof_name;
+						  			var out_div_review = document.createElement("div");
+						  			out_div_review.setAttribute("class", "paragraph");
+						  			out_div_review.setAttribute("style", "text-align:left;");
+						  			out_div_review.setAttribute("id", r_id+"_rscore");
+						  			out_div_review.innerHTML = "Review Score: ";
+						  		
+						  			var button_up = document.createElement("button");
+						  			button_up.setAttribute("onclick", "upvote()");
+						  			button_up.setAttribute("class", "vote_button");
+						  			button_up.setAttribute("id", r_id+"_up_id");
+						  			button_up.setAttribute("value", "Upvote");
+						  			button_up.innerHTML = "Upvote";
+						  
+						  			//document.getElementById(r_id+"_up_id").innerHTML = "Upvote";
+						  			var button_down = document.createElement("button");
+						  			button_down.setAttribute("onclick", "downvote()");
+						  			button_down.setAttribute("class", "vote_button");
+						  			button_down.innerHTML = "Downvote";
+						  			window.alert("check---");
+
+
+
+						  			out_div_review.appendChild(button_up);
+						  			out_div_review.appendChild(button_down);
+
+
+						  			(document.getElementById("reviews-parent-id")).appendChild(out_div_review);
+
+						  			//appending line
+
+						  			var out_div_line = document.createElement("div");
+						  			var in_div_line_1 = document.createElement("div");
+						  			var hr_line = document.createElement("hr");
+						  			in_div_line_1.setAttribute("style", "height: 20px; overflow: hidden; width: 100%;");
+		
+						  			hr_line.setAttribute("class", "styled-hr");
+						  			hr_line.setAttribute("style", "width:100%;");
+						  			window.alert("check2");
+						  			var in_div_line_2 = document.createElement("div");
+						  			in_div_line_2.setAttribute("style", "height: 20px; overflow: hidden; width: 100%;");
+						  			out_div_line.appendChild(in_div_line_1);
+						  			window.alert("check3");
+						  			out_div_line.appendChild(hr_line);
+						  			out_div_line.appendChild(in_div_line_2);
+
+						  			(document.getElementById("reviews-parent-id")).appendChild(out_div_line);
+
+
 
 						  		});
 						  	});
