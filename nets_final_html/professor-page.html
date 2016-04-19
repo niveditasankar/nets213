@@ -179,12 +179,22 @@ var STYLE_PREFIX = 'wsite';
   </div>
 </div></div>
 
+<div id = "outer_class_dropdown_id" style="display:none;"><div style="margin:5px 0px 0px 0px; ">
+  <label style="font:inherit!important; float:left; margin-bottom: 10px; margin-top:10px" for="input-603754659853359667">Class</label>
+  <div>
+    <select id="class_dropdown_id" onchange="pullInfo()" name='_u603754659853359667' style="width:100%">
+	<option value='default'>Please select a class.</option>
+</select>
+
+  </div>
+</div></div>
+
 
 <!--start prof info-->
 
 <div class="outer-div-prof-info" style="display:none;">
 
-<h2 class="wsite-content-title" style="text-align:left;"><font size="7">Professor -----</font></h2>
+<h2 id = "prof_title_id" class="wsite-content-title" style="text-align:left;"><font size="7"></font></h2>
 
 <div class="paragraph" style="text-align:left;"><font size="5"><span>Overall: 4.5</span></font></div>
 
@@ -227,11 +237,14 @@ var STYLE_PREFIX = 'wsite';
 
 <div class="paragraph" style="text-align:left;"><font size="5">Top Reviews:</font></div>
 
+<div class="outer-div-reviews" id="reviews-parent-id">
 <div class="paragraph" style="text-align:left;">Review Score: <button onclick="upvote()" id="upvote_id" class="vote_button">Upvote</button> <button onclick="downvote()" id="downvote_id" class="vote_button">Downvote</button><br />&#8203;Overall Quality: 4.0 <br id="difficulty_score"/><font size="1">Difficulty:<br id="helpfulness_score"/>Helpfulness:<br id="engagement_score"/>Engagement:</font><br /><span><font size="1">Review:</font></span></div>
 
 <div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
 <hr class="styled-hr" style="width:100%;"></hr>
 <div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+
+</div>
 
 <div class="paragraph" style="text-align:left;"><span>REVIEW SCORE: B</span><br /><span>&#8203;OVERALL QUALITY: 4.0</span><br /><font size="1">DIFFICULTY:<br />HELPFULNESS:<br />ENGAGEMENT:</font><br /><span><font size="1">REVIEW:</font></span></div></div>
 </div>

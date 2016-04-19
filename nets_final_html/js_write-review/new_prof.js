@@ -84,6 +84,7 @@ function add_review(){
 					difficulty : difficulty_rate,
 					helpfulness : helpfulness_rate,
 					engagement : engagement_rate,
+					overall : overall_rate,
 					review : text_review,
 					upvotes : 0,
 					downvotes : 0
