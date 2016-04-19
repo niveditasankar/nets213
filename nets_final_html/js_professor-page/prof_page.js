@@ -21,8 +21,23 @@ function pull_info(){
 	var prof_link = "https://penn-prof-review.firebaseio.com/Professor/" + final_prof_name;
 
 	var prof_ref = new Firebase(prof_link);
-		// .concat(final_prof_name));
-	
+
+	var prof = prof_ref.child();
+	window.alert(prof); 
+	// var profreview = prof_ref.child('review_id'); 
+
+	// var path = profreview.toString(); 
+
+	// var data = profreview.exportVal(); 
+	// window.alert(path);
+
+	// profreview.once("value", function(snapshot) {
+	// 	  var data = snapshot.val();
+	// 	  // data equals { "name": { "first": "Fred", "last": "Flintstone" }, "age": 53 }
+	// 	  window.alert(data);  // "Fred"
+	// 	  // console.log(data.age);  // 53
+	// 	};
+
 	
 
 	// prof_ref.on("child_added", function(snapshot, prevChildKey) {
@@ -35,15 +50,16 @@ function pull_info(){
 
 // 	window.alert(final_prof_name);
 
-	prof_ref.on("value", function(snapshot) {
-  console.log(snapshot.val());
-  // window.alert(snapshot.val());
-  window.alert(snapshot.name());
-}, function (errorObject) {
-  console.log("The read failed: " + errorObject.code);
-});
+// 	prof_ref.on("value", function(snapshot) {
+//   console.log(snapshot.val());
+//   // window.alert(snapshot.val());
+//   DataSnapshot data = new DataSnapshot(prof_ref, )
+//   window.alert(snapshot.name());
+// }, function (errorObject) {
+//   console.log("The read failed: " + errorObject.code);
+// });
 
-	window.alert("review");
+// 	window.alert("review");
 
 // 	prof_ref.once("value", function(snapshot) {
 //   // The callback function will only get called once since we return true
