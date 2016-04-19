@@ -162,12 +162,23 @@ var STYLE_PREFIX = 'wsite';
 
 </span><div id='wsite-content' class='wsite-elements wsite-not-footer'>
 
-<div class="search_form_div" style="float:center;">
+<!-- div class="search_form_div" style="float:center;">
 <form class="search_form">
       <input id="search_id" class="search_box" type="text" placeholder="Search professors..."/>
       <button onclick="pull_info()" class="search_button">Search</button>
 </form>
-</div>
+</div> -->
+
+<div><div style="margin:5px 0px 0px 0px;">
+  <label style="font:inherit!important; float:left; margin-bottom: 10px" for="input-603754659853359667">View Professor</label>
+  <div>
+    <select id="prof_dropdown_id" onchange="pullInfo()" name='_u603754659853359667' style="width:100%">
+	<option value='default'>Please select a professor.</option>
+</select>
+
+  </div>
+</div></div>
+
 
 <!--start prof info-->
 

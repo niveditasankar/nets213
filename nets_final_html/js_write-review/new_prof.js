@@ -63,7 +63,7 @@ function add_review(){
 		}
 	  	
 
-var prof_name_value = document.getElementById("input-948407724571952700").value;
+		var prof_name_value = document.getElementById("input-948407724571952700").value;
 	  	var difficulty_rate;
 	  	var helpfulness_rate;
 	  	var engagement_rate;
@@ -79,13 +79,15 @@ var prof_name_value = document.getElementById("input-948407724571952700").value;
 		  	var reviewRef = ref.child("Review");
 
 			var newReviewRef = reviewRef.push({
-				prof_name : prof_name_value,
-				difficulty : difficulty_rate,
-				helpfulness : helpfulness_rate,
-				engagement : engagement_rate,
-				review : text_review,
-				upvotes : 0,
-				downvotes : 0
+				stats: {
+					prof_name : prof_name_value,
+					difficulty : difficulty_rate,
+					helpfulness : helpfulness_rate,
+					engagement : engagement_rate,
+					review : text_review,
+					upvotes : 0,
+					downvotes : 0
+				}
 			});
 
 			var postID = newReviewRef.key()
@@ -100,7 +102,7 @@ var prof_name_value = document.getElementById("input-948407724571952700").value;
 			// window.alert("Welp");
 
 			ref_prof.once("value", function(snapshot) {
-				// window.alert("1");
+				//window.alert("1");
 				if (snapshot.exists()) {
 					// window.alert("2");
 	 
@@ -121,14 +123,14 @@ var prof_name_value = document.getElementById("input-948407724571952700").value;
 					ref_prof.child(authData.uid).set({
 						review_id: postID
 					});
-					window.alert("3");
+					//window.alert("3");
 					ref_user.child(prof_name_value).set({
 						review_id: postID
 					});
 					// window.alert("ermagerd1");
 				}
 				else {
-					// window.alert("4");
+					//window.alert(prof_name_value);
 					ref_prof.set({
 						name: prof_name_value
 					});
@@ -144,7 +146,8 @@ var prof_name_value = document.getElementById("input-948407724571952700").value;
 				}
 			});
 
-			location.reload();
+			window.alert("Thank you for your submission.");
+			document.getElementById('form_new_prof').reset();
 
 		}
 
@@ -155,8 +158,6 @@ var prof_name_value = document.getElementById("input-948407724571952700").value;
 		window.alert("Please log in before submitting a review.")
 
 		console.log("User is logged out");
-	}
-
-  	
+	};
 
 };
