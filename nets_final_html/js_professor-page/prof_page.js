@@ -20,10 +20,52 @@ function pull_info(){
 	
 	var prof_link = "https://penn-prof-review.firebaseio.com/Professor/" + final_prof_name;
 
-	var prof_ref = new Firebase(prof_link);
+	window.alert("hi"); 
 
-	var prof = prof_ref.child();
-	window.alert(prof); 
+	//var prof_ref = new Firebase(prof_link);
+
+	
+
+	var prof_Ref = new Firebase(prof_link);
+
+	window.alert("prof_ref works"); 
+
+	prof_Ref.once("value", function(allReviewsSnapshot) {
+	  allReviewsSnapshot.forEach(function(reviewSnapshot) {
+	    window.alert("iterate");
+	    var key = reviewSnapshot.key(); 
+	    window.alert(key);
+	    var rid = reviewSnapshot.child("review_id").val();
+	    window.alert(rid);
+
+	    var review_link = "https://penn-prof-review.firebaseio.com/Review/" + rid;
+	    // var review_Ref = new Firebase(review_link)
+
+	    window.alert(review_link);
+
+	    if (rid) {
+	    	window.alert("gets in if");
+	  //   	review_Ref.once("value", function(allInfoSnapshot) {
+			// 	window.alert("iterate2");
+			//   	allInfoSnapshot.forEach(function(infoSnapshot) {
+			//   	window.alert("inner loop");
+			//     var node_difficulty = messageSnapshot.child("difficulty").val();  // e.g. "barney"// e.g. "Welcome to Bedrock City!"
+			//     window.alert(node_difficulty);
+			//   });
+			// });
+	    }
+
+		
+
+	    //var uid = messageSnapshot.child("").val();  // e.g. "barney"
+	    //var text = messageSnapshot.child("text").val();  // e.g. "Welcome to Bedrock City!"
+	  });
+	});
+
+
+
+	//var prof = prof_ref.child();
+	//window.alert(prof); 
 	// var profreview = prof_ref.child('review_id'); 
 
 	// var path = profreview.toString(); 
