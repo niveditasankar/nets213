@@ -1,0 +1,3 @@
+Classmates can login to this website using the URL provided in the tutorial video. The first time accessing the site, the user must create an account through the "Create an Account" option on the Login page – accounts can be created by anyone with a UPENN.EDU email address.
+
+Users can then use the "Write Review" tab in the top bar to write a review for a professor and include statistics for measuring the given professor on helpfulness, difficulty, engagement, overall quality. Users can also search for professors under "Professor Page" by typing in the name of the professor they wish to search for. Users will be able to see the aggregated ratings of professors, along with any reviews that have not been downvoted a significant number of times.

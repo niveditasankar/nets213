@@ -1,0 +1,3 @@
+There are four HTML files corresponding to each of the four pages that make up this site (the homepage, professor page, login page, and the review writing page). This HTML gives the basic layout of the page and corresponds to CSS files that dictate style.
+
+Each of these HTML files has a corresponding javascript page in the relevant js_PAGENAME folder. The Javascript code for the write_review, login, and professor pages all tells the code how to access the Firebase database with all of the stored professor, user, and review data and enables the user to push to or pull from the database as necessary (in the create account / login and professor pages respectively).
