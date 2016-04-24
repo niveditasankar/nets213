@@ -100,18 +100,39 @@ function pullInfo() {
 						  			in_div_review.innerHTML = "Review Score: ";
 						  		
 						  			var button_up = document.createElement("button");
-						  			button_up.setAttribute("onclick", "upvote()");
+						  			// button_up.setAttribute("onclick", "upvote()");
 						  			button_up.setAttribute("class", "vote_button");
 						  			button_up.setAttribute("id", r_id+"_up_id");
 						  			button_up.setAttribute("value", "Upvote");
 						  			button_up.innerHTML = "Upvote";
 						  
 						  			var button_down = document.createElement("button");
-						  			button_down.setAttribute("onclick", "downvote()");
+						  			// button_down.setAttribute("onclick", "downvote()");
 						  			button_down.setAttribute("class", "vote_button");
+						  			button_up.setAttribute("id", r_id+"_down_id");
 						  			button_down.innerHTML = "Downvote";
 						  			linebreak = document.createElement("br");
 
+						  			button_up.setAttribute("type", "button");
+
+						  			//upvote & downvote buttons
+
+						  			var upvote = function() {
+						  				window.alert("hi there");
+						  				//data_Ref({ "stats/upvotes": dataSnapshot.child("upvotes").val() + 1 });
+						  			};
+
+						  			button_up.setAttribute("onclick", upvote);
+
+						  	// 		button_down.attachEvent('onclick', function(){
+						  	// 			window.alert("hi there");
+									//     //data_Ref({ "stats/downvotes": dataSnapshot.child("downvotes").val() + 1 });
+									//     //window.alert("yo");
+									// });
+
+									// document.getElementById(r_id+"_up_id").addEventListener("onclick", function(){
+									//     data_Ref({ "stats/upvotes": dataSnapshot.child("upvotes").val() + 1 });
+									// });
 
 
 						  			in_div_review.appendChild(button_up);
