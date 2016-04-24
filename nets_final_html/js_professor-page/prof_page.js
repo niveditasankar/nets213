@@ -22,6 +22,12 @@ function pullInfo() {
 	var prof_Ref = new Firebase("https://penn-prof-review.firebaseio.com/Professor");
 	var selected_prof = document.getElementById("prof_dropdown_id").value;
 
+	var prev_info = document.getElementById('reviews-parent-id');
+	prev_info.innerHTML = "";
+	while(prev_info.firstChild){
+	    prev_info.removeChild(prev_info.firstChild);
+	}
+
   	prof_Ref.once("value", function(allProfessorsSnapshot) {
   		allProfessorsSnapshot.forEach(function(professorSnapshot) {
 
@@ -46,13 +52,18 @@ function pullInfo() {
 
 				var review_Ref = new Firebase("https://penn-prof-review.firebaseio.com/Professor/" + final_prof_name);
 
-				total_diff = 0;
-				total_eng = 0;
-				total_help = 0;
-				total_all = 0;
-				total_reviews = 0;
+				var total_diff = parseFloat(0);
+				var total_eng = parseFloat(0);
+				var total_help = parseFloat(0);
+				var total_all = parseFloat(0);
+				var total_reviews = parseFloat(0);
 
 			  	review_Ref.once("value", function(allReviewsSnapshot) {
+			  // 		total_diff = parseFloat(0);
+					// total_eng = parseFloat(0);
+					// total_help = parseFloat(0);
+					// total_all = parseFloat(0);
+					// total_reviews = parseFloat(0);
 			  		allReviewsSnapshot.forEach(function(reviewSnapshot) {
 
 			  			var prof_name = reviewSnapshot.child("name").val();
@@ -73,20 +84,20 @@ function pullInfo() {
 						  			var downvote_score = dataSnapshot.child("downvotes").val();
 						  			
 
-						  			total_diff = total_diff + diff_score;
-						  			total_eng += eng_score;
-						  			total_help += help_score;
-						  			total_all += all_score;
-						  			total_reviews = total_reviews + 1;
+						  			total_diff += parseFloat(diff_score);
+						  			total_eng += parseFloat(eng_score);
+						  			total_help += parseFloat(help_score);
+						  			total_all += parseFloat(all_score);
+						  			total_reviews = parseFloat(total_reviews) + parseFloat(1);
+						  			
 
+						  			//creating each review
 
-						  			//appending review
-
-						  			var out_div_review = document.createElement("div");
-						  			out_div_review.setAttribute("class", "paragraph");
-						  			out_div_review.setAttribute("style", "text-align:left;");
-						  			out_div_review.setAttribute("id", r_id+"_rscore");
-						  			out_div_review.innerHTML = "Review Score: ";
+						  			var in_div_review = document.createElement("div");
+						  			in_div_review.setAttribute("class", "paragraph");
+						  			in_div_review.setAttribute("style", "text-align:left;");
+						  			in_div_review.setAttribute("id", r_id+"_rscore");
+						  			in_div_review.innerHTML = "Review Score: ";
 						  		
 						  			var button_up = document.createElement("button");
 						  			button_up.setAttribute("onclick", "upvote()");
@@ -95,20 +106,30 @@ function pullInfo() {
 						  			button_up.setAttribute("value", "Upvote");
 						  			button_up.innerHTML = "Upvote";
 						  
-						  			//document.getElementById(r_id+"_up_id").innerHTML = "Upvote";
 						  			var button_down = document.createElement("button");
 						  			button_down.setAttribute("onclick", "downvote()");
 						  			button_down.setAttribute("class", "vote_button");
 						  			button_down.innerHTML = "Downvote";
-						  			window.alert("check---");
+						  			linebreak = document.createElement("br");
 
 
 
-						  			out_div_review.appendChild(button_up);
-						  			out_div_review.appendChild(button_down);
+						  			in_div_review.appendChild(button_up);
+						  			in_div_review.appendChild(button_down);
+						  			in_div_review.innerHTML = in_div_review.innerHTML + "<br/>";
+						  			in_div_review.innerHTML = in_div_review.innerHTML + "&#8203;Overall Quality: " + all_score;
+						  			in_div_review.innerHTML = in_div_review.innerHTML + "<br/>";
+						  			in_div_review.innerHTML = in_div_review.innerHTML + "<br/>";
+						  			in_div_review.innerHTML = in_div_review.innerHTML + "Difficulty: " + diff_score;
+						  			in_div_review.innerHTML = in_div_review.innerHTML + "<br/>";
+						  			in_div_review.innerHTML = in_div_review.innerHTML + "Helpfulness: " + help_score;
+						  			in_div_review.innerHTML = in_div_review.innerHTML + "<br/>";
+						  			in_div_review.innerHTML = in_div_review.innerHTML + "Engagement: " + eng_score;
+						  			in_div_review.innerHTML = in_div_review.innerHTML + "<br/>";
+						  			in_div_review.innerHTML = in_div_review.innerHTML + "Review: " + review_text;
 
-
-						  			(document.getElementById("reviews-parent-id")).appendChild(out_div_review);
+						  		
+						  			(document.getElementById("reviews-parent-id")).appendChild(in_div_review);
 
 						  			//appending line
 
@@ -119,45 +140,40 @@ function pullInfo() {
 		
 						  			hr_line.setAttribute("class", "styled-hr");
 						  			hr_line.setAttribute("style", "width:100%;");
-						  			window.alert("check2");
+
 						  			var in_div_line_2 = document.createElement("div");
 						  			in_div_line_2.setAttribute("style", "height: 20px; overflow: hidden; width: 100%;");
 						  			out_div_line.appendChild(in_div_line_1);
-						  			window.alert("check3");
+
 						  			out_div_line.appendChild(hr_line);
 						  			out_div_line.appendChild(in_div_line_2);
 
 						  			(document.getElementById("reviews-parent-id")).appendChild(out_div_line);
 
 
+									var overall_total_score = document.getElementById('overall_score_text_id');
+									overall_total_score.innerHTML = "Overall: " + (total_all/total_reviews).toFixed(2);
 
-						  		});
+									var diff_total_score = document.getElementById('difficulty_score_text_id');
+									diff_total_score.innerHTML = "Difficulty: " + (total_diff/total_reviews).toFixed(2);
+
+									var eng_total_score = document.getElementById('engagement_score_text_id');
+									eng_total_score.innerHTML = "Engagement: " + (total_eng/total_reviews).toFixed(2);
+
+									var help_total_score = document.getElementById('helpfulness_score_text_id');
+									help_total_score.innerHTML = "Helpfulness: " + (total_help/total_reviews).toFixed(2);
+
+
+								});
+
 						  	});
-						}			  			
+
+						}
+
 			  		});
-
-				
-
+					
 			  	});
 
-				// window.alert(total_diff);
-				// window.alert(total_eng);
-				// window.alert(total_help);
-				// window.alert(total_all);
-				// window.alert(total_reviews);
-
-				total_diff = total_diff/total_reviews;
-				total_eng = total_eng/total_reviews;
-				total_help = total_help/total_reviews;
-				total_all = total_all/total_reviews;
-
-				// window.alert(total_diff);
-				// window.alert(total_eng);
-				// window.alert(total_help);
-				// window.alert(total_all);
-
-				
-				//window.alert("style change");
 				document.getElementById("outer-div-prof-info").style.display="block!important";
 
   			}
