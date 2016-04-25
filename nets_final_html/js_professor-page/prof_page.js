@@ -109,20 +109,26 @@ function pullInfo() {
 						  			var button_down = document.createElement("button");
 						  			// button_down.setAttribute("onclick", "downvote()");
 						  			button_down.setAttribute("class", "vote_button");
-						  			button_up.setAttribute("id", r_id+"_down_id");
+						  			button_down.setAttribute("id", r_id+"_down_id");
 						  			button_down.innerHTML = "Downvote";
 						  			linebreak = document.createElement("br");
 
 						  			button_up.setAttribute("type", "button");
 
 						  			//upvote & downvote buttons
-
 						  			var upvote = function() {
 						  				window.alert("hi there");
 						  				//data_Ref({ "stats/upvotes": dataSnapshot.child("upvotes").val() + 1 });
 						  			};
 
-						  			button_up.setAttribute("onclick", upvote);
+						  			button_up.setAttribute("onclick", "upvote();")
+						  			button_up.onclick = function() {
+						  				window.alert("hi there");
+						  			}
+
+
+
+						  			// button_up.setAttribute("onclick", upvote);
 
 						  	// 		button_down.attachEvent('onclick', function(){
 						  	// 			window.alert("hi there");

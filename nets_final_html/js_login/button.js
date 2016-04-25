@@ -10,13 +10,13 @@ function register(){
 	}
 	else {
 	  	var ref = new Firebase("https://penn-prof-review.firebaseio.com");
-	  	window.alert("meh!");
+	  	//window.alert("meh!");
 	    ref.createUser({
 			email    : email_val,
 			password : pw_val
 		}, function(error, userData) {
 		  if (error) {
-		  	window.alert("fail :(");
+		  	//window.alert("fail :(");
 		    console.log("Error creating user:", error);
 		  } else {
 		  	var usersRef = ref.child("User");
@@ -24,7 +24,7 @@ function register(){
 				username: un_val,
 				email : email_val
 			});
-			window.alert("success!");
+			window.alert("You've successfully registered. Please log in to continue!");
 		    console.log("Successfully created user account with id:", userData.uid);
 		  }
 		});
@@ -42,12 +42,12 @@ function login(){
 	  email    : email_val,
 	  password : pw_val
 	}, function(error, authData) {
-		window.alert("yo!");
+		//window.alert("yo!");
 	  if (error) {
-	  	window.alert("fail :(");
+	  	//window.alert("fail :(");
 	    console.log("Login Failed!", error);
 	  } else {
-	  	window.alert("success!");
+	  	window.alert("Successful login!");
 	  	document.getElementById("loginId").innerHTML="Logout";
 
 	    console.log("Authenticated successfully with payload:", authData);
