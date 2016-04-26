@@ -1,0 +1,1016 @@
+{
+  "Professor" : {
+    "Aaron Roth" : {
+      "3e9a02e8-5595-4691-9f66-0654b4f5baa8" : {
+        "review_id" : "-KGECCjSwY5JysVh8mGN"
+      },
+      "name" : "Aaron Roth"
+    },
+    "Abba Krieger" : {
+      "fc480760-8cb9-496d-9703-8fae9ad1b0eb" : {
+        "review_id" : "-KGDi2pRzugTv8KFVzor"
+      },
+      "name" : "Abba Krieger"
+    },
+    "Adam Grant" : {
+      "6053b644-8c53-44c0-b433-6c79b589ab2b" : {
+        "review_id" : "-KGFAIONLbgez-ImU2sc"
+      },
+      "name" : "Adam Grant"
+    },
+    "Benedict Brown" : {
+      "a7369722-f99e-4e00-b562-83172ac0cf3d" : {
+        "review_id" : "-KGEbf_zlcGldEKb6Jqj"
+      },
+      "name" : "Benedict Brown"
+    },
+    "CCB" : {
+      "79c6cb74-09c0-41ba-a643-21446a8b6b2b" : {
+        "review_id" : "-KGFEALLAUdf6CN_NIJH"
+      },
+      "name" : "CCB"
+    },
+    "CJ Taylor" : {
+      "660c5904-0779-4d5f-9d9a-d3b2ea18a461" : {
+        "review_id" : "-KGC_7b2HxreCXQs8l2c"
+      },
+      "name" : "CJ Taylor"
+    },
+    "Caroline Connoly" : {
+      "660c5904-0779-4d5f-9d9a-d3b2ea18a461" : {
+        "review_id" : "-KGCXk9vCyZxP_rl7LXw"
+      },
+      "name" : "Caroline Connoly"
+    },
+    "Chris Callison-Burch" : {
+      "3d40d837-832a-4f3a-b843-01c1b378c678" : {
+        "review_id" : "-KG2tFbZRm-ik6dak39P"
+      },
+      "660c5904-0779-4d5f-9d9a-d3b2ea18a461" : {
+        "review_id" : "-KGCYJU2NmNfCGQ6saRg"
+      },
+      "e1aec2c9-a2a1-4c50-98ce-5d070563b7ab" : {
+        "review_id" : "-KGEH31MGu6JjZCzMy9N"
+      },
+      "name" : "Chris Callison-Burch"
+    },
+    "Chris Murphy" : {
+      "de22ea26-f5ba-48a9-a892-61ffdedb05da" : {
+        "review_id" : "-KGBBiZZ3vlRJMVCkA4K"
+      },
+      "name" : "Chris Murphy"
+    },
+    "David Brainard" : {
+      "08556136-2e72-4db2-95e4-4683c5eb3859" : {
+        "review_id" : "-KGDgPlPBQD_Xswu4wEF"
+      },
+      "name" : "David Brainard"
+    },
+    "Holger Sieg" : {
+      "c9c4b163-e241-4af0-b494-c537fe62a007" : {
+        "review_id" : "-KGDsWlkDAQKIVE4iOqJ"
+      },
+      "name" : "Holger Sieg"
+    },
+    "Jean Gallier" : {
+      "08556136-2e72-4db2-95e4-4683c5eb3859" : {
+        "review_id" : "-KGDRD844ez0dR6ccjd3"
+      },
+      "660c5904-0779-4d5f-9d9a-d3b2ea18a461" : {
+        "review_id" : "-KGCXPjhTiyy8DP6R8cZ"
+      },
+      "name" : "Jean Gallier"
+    },
+    "Keith Neidermeier" : {
+      "660c5904-0779-4d5f-9d9a-d3b2ea18a461" : {
+        "review_id" : "-KGCY1bZYLSnzdsAbX_x"
+      },
+      "name" : "Keith Neidermeier"
+    },
+    "Luke Taylor" : {
+      "ff082deb-2aab-4ab3-8dd9-0cf122d1a8db" : {
+        "review_id" : "-KG8y69u6tWBACYUehIU"
+      },
+      "name" : "Luke Taylor"
+    },
+    "Manjita Mukharji" : {
+      "660c5904-0779-4d5f-9d9a-d3b2ea18a461" : {
+        "review_id" : "-KGCZgUOFnPHUViSWIbk"
+      },
+      "name" : "Manjita Mukharji"
+    },
+    "Mark Low" : {
+      "660c5904-0779-4d5f-9d9a-d3b2ea18a461" : {
+        "review_id" : "-KGCYugargE0hupEMI-N"
+      },
+      "name" : "Mark Low"
+    },
+    "Matt Blaze" : {
+      "a7369722-f99e-4e00-b562-83172ac0cf3d" : {
+        "review_id" : "-KGEbtqwbXObcL2UkJ__"
+      },
+      "name" : "Matt Blaze"
+    },
+    "Michael Kearns" : {
+      "3e9a02e8-5595-4691-9f66-0654b4f5baa8" : {
+        "review_id" : "-KGEEuP4P33ErCANa7EI"
+      },
+      "c9c4b163-e241-4af0-b494-c537fe62a007" : {
+        "review_id" : "-KGDue1EEBRyAFq-zsnH"
+      },
+      "name" : "Michael Kearns"
+    },
+    "Michael Weisberg" : {
+      "fc480760-8cb9-496d-9703-8fae9ad1b0eb" : {
+        "review_id" : "-KGDicmvldFBsDJh9I8c"
+      },
+      "name" : "Michael Weisberg"
+    },
+    "Petra Todd" : {
+      "c9c4b163-e241-4af0-b494-c537fe62a007" : {
+        "review_id" : "-KGDs--AqZOcAKlkQKqP"
+      },
+      "name" : "Petra Todd"
+    },
+    "Po-Ling Loh" : {
+      "660c5904-0779-4d5f-9d9a-d3b2ea18a461" : {
+        "review_id" : "-KGCX3GurDDueAepNXuL"
+      },
+      "name" : "Po-Ling Loh"
+    },
+    "Professor Rakesh Vohra" : {
+      "70df4f72-75b2-4239-8780-11828ad7750f" : {
+        "review_id" : "-KGA9Ll0Rp7r0orn4lSz"
+      },
+      "name" : "Professor Rakesh Vohra"
+    },
+    "Rajiv Gandhi" : {
+      "08556136-2e72-4db2-95e4-4683c5eb3859" : {
+        "review_id" : "-KGDRqs8YCraasrRK1YM"
+      },
+      "6beb6956-8fe5-441d-b31c-fcf6aadcad81" : {
+        "review_id" : "-KGEWtJ95KzUzknkD43D"
+      },
+      "de22ea26-f5ba-48a9-a892-61ffdedb05da" : {
+        "review_id" : "-KGBC0bpnS4x36Kmg7E7"
+      },
+      "name" : "Rajiv Gandhi"
+    },
+    "Rajiv Ghandi" : {
+      "056978bc-3869-4ae7-b6e3-e6ab80ccb92c" : {
+        "review_id" : "-KG845WHu22-eGV3N7fM"
+      },
+      "e1aec2c9-a2a1-4c50-98ce-5d070563b7ab" : {
+        "review_id" : "-KGEPQcg6LjPEO94hHIf"
+      },
+      "name" : "Rajiv Ghandi"
+    },
+    "Rakesh Vohra" : {
+      "3e9a02e8-5595-4691-9f66-0654b4f5baa8" : {
+        "review_id" : "-KGEAyES7ypcDn9FxveO"
+      },
+      "name" : "Rakesh Vohra"
+    },
+    "Renato Bettiol" : {
+      "c9c4b163-e241-4af0-b494-c537fe62a007" : {
+        "review_id" : "-KGDts9Enf4IA_FQDYFe"
+      },
+      "name" : "Renato Bettiol"
+    },
+    "Robert Ghrist" : {
+      "85956672-348a-49e7-ac43-0eb282cfee99" : {
+        "review_id" : "-KGF3UYS58xSpwA6y0_F"
+      },
+      "name" : "Robert Ghrist"
+    },
+    "Sanjeev Khanna" : {
+      "3d40d837-832a-4f3a-b843-01c1b378c678" : {
+        "review_id" : "-KG2t1TrTIcCiiHXsJy_"
+      },
+      "fd860b07-4bd3-43ed-a825-597d5983e06f" : {
+        "review_id" : "-KG5wgCfHYSIlMShOY-f"
+      },
+      "name" : "Sanjeev Khanna"
+    },
+    "Santosh Venkatesh" : {
+      "d13f3a43-e2d1-469f-b159-64c2fecf5590" : {
+        "review_id" : "-KGDIFvRs9hz58j56JGT"
+      },
+      "name" : "Santosh Venkatesh"
+    },
+    "Stephanie Weirich" : {
+      "3e9a02e8-5595-4691-9f66-0654b4f5baa8" : {
+        "review_id" : "-KGEFCt_ULNA72T_vjGW"
+      },
+      "name" : "Stephanie Weirich"
+    },
+    "Steve Kimbrough" : {
+      "074282a9-1e22-4068-8d03-530d14d8772e" : {
+        "review_id" : "-KGDDWhVv6vnBPL51PkK"
+      },
+      "name" : "Steve Kimbrough"
+    },
+    "Steven Hahn" : {
+      "074282a9-1e22-4068-8d03-530d14d8772e" : {
+        "review_id" : "-KGDCe6EBN09CWK-WMKn"
+      },
+      "name" : "Steven Hahn"
+    },
+    "Tom Cassel" : {
+      "d13f3a43-e2d1-469f-b159-64c2fecf5590" : {
+        "review_id" : "-KGDHaNl0JIwzyIAacZ4"
+      },
+      "name" : "Tom Cassel"
+    },
+    "Val Tannen" : {
+      "660c5904-0779-4d5f-9d9a-d3b2ea18a461" : {
+        "review_id" : "-KGCZJmIrtJQVJDCMMGX"
+      },
+      "6beb6956-8fe5-441d-b31c-fcf6aadcad81" : {
+        "review_id" : "-KGEVSMwnbbpK-755uUB"
+      },
+      "name" : "Val Tannen"
+    },
+    "Zack Ives" : {
+      "d13f3a43-e2d1-469f-b159-64c2fecf5590" : {
+        "review_id" : "-KGDHGExTRjYzdMVG7QF"
+      },
+      "name" : "Zack Ives"
+    }
+  },
+  "Review" : {
+    "-KG2t1TrTIcCiiHXsJy_" : {
+      "stats" : {
+        "difficulty" : 3,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 5,
+        "overall" : 5,
+        "prof_name" : "Sanjeev Khanna",
+        "review" : "Best professor I've ever had. CIS 320 is a great class because of him.",
+        "upvotes" : 0
+      }
+    },
+    "-KG2tFbZRm-ik6dak39P" : {
+      "stats" : {
+        "difficulty" : 2,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 5,
+        "overall" : 5,
+        "prof_name" : "Chris Callison-Burch",
+        "review" : "CCB is super nice and all around a great professor.",
+        "upvotes" : 0
+      }
+    },
+    "-KG5wgCfHYSIlMShOY-f" : {
+      "stats" : {
+        "difficulty" : 5,
+        "downvotes" : 0,
+        "engagement" : 4,
+        "helpfulness" : 5,
+        "overall" : 4,
+        "prof_name" : "Sanjeev Khanna",
+        "review" : "Professor Khanna's class is difficult but fulfilling. A required class, but he's probably the best professor for it.",
+        "upvotes" : 0
+      }
+    },
+    "-KG845WHu22-eGV3N7fM" : {
+      "stats" : {
+        "difficulty" : 4,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 5,
+        "overall" : 5,
+        "prof_name" : "Rajiv Ghandi",
+        "review" : "Very hard class, but learn a lot",
+        "upvotes" : 0
+      }
+    },
+    "-KG8y69u6tWBACYUehIU" : {
+      "stats" : {
+        "difficulty" : 4,
+        "downvotes" : 0,
+        "engagement" : 4,
+        "helpfulness" : 5,
+        "overall" : 5,
+        "prof_name" : "Luke Taylor",
+        "review" : "Great professor - learned a lot in the class!",
+        "upvotes" : 0
+      }
+    },
+    "-KGA9Ll0Rp7r0orn4lSz" : {
+      "stats" : {
+        "difficulty" : 4,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 5,
+        "overall" : 5,
+        "prof_name" : "Professor Rakesh Vohra",
+        "review" : "He is a great lecturer who really understands the material above and beyond. He lectures in a great storytelling way and is very helpful during office hours",
+        "upvotes" : 0
+      }
+    },
+    "-KGBBiZZ3vlRJMVCkA4K" : {
+      "stats" : {
+        "difficulty" : 3,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 5,
+        "overall" : 5,
+        "prof_name" : "Chris Murphy",
+        "review" : "Chris Murphy is a great lecturer. I felt like I learned a ton of important skills in CIS 350 that I will carry with me to the workplace. He is also super friendly! Highly recommend taking a class with him.",
+        "upvotes" : 0
+      }
+    },
+    "-KGBC0bpnS4x36Kmg7E7" : {
+      "stats" : {
+        "difficulty" : 5,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 5,
+        "overall" : 3,
+        "prof_name" : "Rajiv Gandhi",
+        "review" : "Professor Gandhi was a great lecturer, but as a professor I gave him a 3 because assigning homework every class was unreasonable. He assumed that our schedules were light enough to be able to handle the constant homework flow, and the homework did not reinforce my learning, instead it just made me exhausted.",
+        "upvotes" : 0
+      }
+    },
+    "-KGCX3GurDDueAepNXuL" : {
+      "stats" : {
+        "difficulty" : 2,
+        "downvotes" : 0,
+        "engagement" : 3,
+        "helpfulness" : 5,
+        "overall" : 5,
+        "prof_name" : "Po-Ling Loh",
+        "review" : "She writes EVERYTHING on the board. So if you like having amazing notes, she's incredible, but if you like being super engaged in class and challenged during class time, we don't do so many practice problems or difficult things, so you may be  a little bored.",
+        "upvotes" : 0
+      }
+    },
+    "-KGCXPjhTiyy8DP6R8cZ" : {
+      "stats" : {
+        "difficulty" : 5,
+        "downvotes" : 0,
+        "engagement" : 1,
+        "helpfulness" : 1,
+        "overall" : 1,
+        "prof_name" : "Jean Gallier",
+        "review" : "AVOID HIM AT ALL COSTS!\nHe's a horrible professor and doesn't explain anything well. His homeworks are incredibly difficult, but to his credit his exams are pretty easy.",
+        "upvotes" : 0
+      }
+    },
+    "-KGCXk9vCyZxP_rl7LXw" : {
+      "stats" : {
+        "difficulty" : 1,
+        "downvotes" : 0,
+        "engagement" : 4,
+        "helpfulness" : 5,
+        "overall" : 5,
+        "prof_name" : "Caroline Connoly",
+        "review" : "She's understanding, kind, and her class is very interesting. Her assessments are fair and if you study you will do well. She does assign a lot of reading, though.",
+        "upvotes" : 0
+      }
+    },
+    "-KGCY1bZYLSnzdsAbX_x" : {
+      "stats" : {
+        "difficulty" : 3,
+        "downvotes" : 0,
+        "engagement" : 4,
+        "helpfulness" : 3,
+        "overall" : 4,
+        "prof_name" : "Keith Neidermeier",
+        "review" : "Class is pretty engaging, but not all that interesting. While the material is quite simple, his quizzes are challenging and assessment in the course is pretty strict",
+        "upvotes" : 0
+      }
+    },
+    "-KGCYJU2NmNfCGQ6saRg" : {
+      "stats" : {
+        "difficulty" : 3,
+        "downvotes" : 0,
+        "engagement" : 4,
+        "helpfulness" : 2,
+        "overall" : 3,
+        "prof_name" : "Chris Callison-Burch",
+        "review" : "Class is interesting but it's hard to always pay attention because we are never assessed on any of the information presented in lecture. The homework is very fair and very interesting.",
+        "upvotes" : 0
+      }
+    },
+    "-KGCYugargE0hupEMI-N" : {
+      "stats" : {
+        "difficulty" : 5,
+        "downvotes" : 0,
+        "engagement" : 3,
+        "helpfulness" : 3,
+        "overall" : 3,
+        "prof_name" : "Mark Low",
+        "review" : "Very eclectic during class - I couldn't really follow what he was doing, and he was assuming that we all remembered some complex stuff from calculus, which I didn't necessarily remember so well. His assessments were hard but fair, and he was really kind during office hours",
+        "upvotes" : 0
+      }
+    },
+    "-KGCZJmIrtJQVJDCMMGX" : {
+      "stats" : {
+        "difficulty" : 5,
+        "downvotes" : 0,
+        "engagement" : 1,
+        "helpfulness" : 1,
+        "overall" : 1,
+        "prof_name" : "Val Tannen",
+        "review" : "I would take CIS160 with Val even though he's horrible, because he's better than Rajiv (so I've heard).  But if you can avoid him - do it!",
+        "upvotes" : 0
+      }
+    },
+    "-KGCZgUOFnPHUViSWIbk" : {
+      "stats" : {
+        "difficulty" : 1,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 5,
+        "overall" : 5,
+        "prof_name" : "Manjita Mukharji",
+        "review" : "Very easy going and understanding, and quite funny. She's super chill but is brilliant and will teach you a lot!",
+        "upvotes" : 0
+      }
+    },
+    "-KGC_7b2HxreCXQs8l2c" : {
+      "stats" : {
+        "difficulty" : 4,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 5,
+        "overall" : 4,
+        "prof_name" : "CJ Taylor",
+        "review" : "Really dynamic guy - I loved his class and was able to pay attention because he's funny and makes lecture interesting. His homeworks are fair (until the end of the semester, then they get really hard!) but overall he's great. Really helpful in office hours, as well, although a little condescending. ",
+        "upvotes" : 0
+      }
+    },
+    "-KGDCe6EBN09CWK-WMKn" : {
+      "stats" : {
+        "difficulty" : 3,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 3,
+        "overall" : 5,
+        "prof_name" : "Steven Hahn",
+        "review" : "Professor Hahn (HIST 171) knows pretty much anything and everything about the American South, and his lectures are excellent. He gives the perfect amount of thematic, wide reaching observations and actual historical details, and this class is definitely one of the best I've taken at Penn - though it is a traditional large lecture, it just goes to show that excellent teaching can transcend any class format, because I'm always engaged and interested in class. ",
+        "upvotes" : 0
+      }
+    },
+    "-KGDDWhVv6vnBPL51PkK" : {
+      "stats" : {
+        "difficulty" : 2,
+        "downvotes" : 0,
+        "engagement" : 4,
+        "helpfulness" : 3,
+        "overall" : 2,
+        "prof_name" : "Steve Kimbrough",
+        "review" : "Professor Kimbrough cares about students and about the material he teaches in OIDD 319. However, he's also pretty disorganized, his directions for assignments and projects are unclear or \"will be updated at a later date\" and he often lets half of class be taken up by individual student questions, which means we're always behind. Really interesting material (Evolutionary Game Theory) and not a difficult course, but not well organized. ",
+        "upvotes" : 0
+      }
+    },
+    "-KGDHGExTRjYzdMVG7QF" : {
+      "stats" : {
+        "difficulty" : 5,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 3,
+        "overall" : 4,
+        "prof_name" : "Zack Ives",
+        "review" : "Ives is a great Professor, but you have to reach out for help if you want it. He is passionate about the courses he teaches",
+        "upvotes" : 0
+      }
+    },
+    "-KGDHaNl0JIwzyIAacZ4" : {
+      "stats" : {
+        "difficulty" : 4,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 5,
+        "overall" : 5,
+        "prof_name" : "Tom Cassel",
+        "review" : "Cassel is the best Professor. He is engaged and tough, but also makes learning enjoyable and the material is excellent ",
+        "upvotes" : 0
+      }
+    },
+    "-KGDIFvRs9hz58j56JGT" : {
+      "stats" : {
+        "difficulty" : 5,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 5,
+        "overall" : 5,
+        "prof_name" : "Santosh Venkatesh",
+        "review" : "I have never learned more from a professor. VERY hard but an amazing teacher!",
+        "upvotes" : 0
+      }
+    },
+    "-KGDRD844ez0dR6ccjd3" : {
+      "stats" : {
+        "difficulty" : 5,
+        "downvotes" : 0,
+        "engagement" : 3,
+        "helpfulness" : 2,
+        "overall" : 1,
+        "prof_name" : "Jean Gallier",
+        "review" : "The professor doesn't really know how to lecture.  He's very entertaining and very smart, but I honestly haven't learned anything.  The homeworks are beyond difficult, however.",
+        "upvotes" : 0
+      }
+    },
+    "-KGDRqs8YCraasrRK1YM" : {
+      "stats" : {
+        "difficulty" : 5,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 5,
+        "overall" : 4,
+        "prof_name" : "Rajiv Gandhi",
+        "review" : "This class is pretty exhausting.  For example, we had two homeworks and a final project all due within a 5 day period.  I learned a lot, however, from this course.",
+        "upvotes" : 0
+      }
+    },
+    "-KGDgPlPBQD_Xswu4wEF" : {
+      "stats" : {
+        "difficulty" : 5,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 5,
+        "overall" : 5,
+        "prof_name" : "David Brainard",
+        "review" : "Very smart and humble man.  He is probably the best professor I've had at Penn.",
+        "upvotes" : 0
+      }
+    },
+    "-KGDi2pRzugTv8KFVzor" : {
+      "stats" : {
+        "difficulty" : 3,
+        "downvotes" : 0,
+        "engagement" : 1,
+        "helpfulness" : 1,
+        "overall" : 2,
+        "prof_name" : "Abba Krieger",
+        "review" : "He promises a lot during the first few classes but the course is overall quite unorganized. He never fits all the content he wants to cover in one class- and I doubt he can fit all of the content he promised to cover in the semester.\n\nIt's hard to follow what he's trying to do in class- I turn to Penn State's notes to do his homework.",
+        "upvotes" : 0
+      }
+    },
+    "-KGDicmvldFBsDJh9I8c" : {
+      "stats" : {
+        "difficulty" : 3,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 5,
+        "overall" : 5,
+        "prof_name" : "Michael Weisberg",
+        "review" : "Amazing philosophy professor. Extremely engaging and will encourage you to explore the subjects of his course beyond what he teaches in the class. Very accessible for discussions on and beyond coursework!",
+        "upvotes" : 0
+      }
+    },
+    "-KGDs--AqZOcAKlkQKqP" : {
+      "stats" : {
+        "difficulty" : 4,
+        "downvotes" : 0,
+        "engagement" : 3,
+        "helpfulness" : 3,
+        "overall" : 4,
+        "prof_name" : "Petra Todd",
+        "review" : "Professor Todd is a very good teacher. Her lectures are not always the most engaging, but it is very helpful to go to class and learn from her. Overall she is a great teacher and I would highly recommend someone to take a class with her.",
+        "upvotes" : 0
+      }
+    },
+    "-KGDsWlkDAQKIVE4iOqJ" : {
+      "stats" : {
+        "difficulty" : 3,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 4,
+        "overall" : 5,
+        "prof_name" : "Holger Sieg",
+        "review" : "Holger Sieg is a great Econ professor. He teaches a very interesting class (Urban Fiscal Policy), and he is very knowledgable about the subject. He teaches the course material in a very engaging manner. I would highly recommend any (Economics major) to take a course with him before they graduate.",
+        "upvotes" : 0
+      }
+    },
+    "-KGDts9Enf4IA_FQDYFe" : {
+      "stats" : {
+        "difficulty" : 4,
+        "downvotes" : 0,
+        "engagement" : 3,
+        "helpfulness" : 2,
+        "overall" : 2,
+        "prof_name" : "Renato Bettiol",
+        "review" : "Professor Bettiol is an engaging teacher, but he is often very quick in his lectures and has a hard time engaging students. He is clearly very knowledgable about linear algebra, but I do not think that he has a great grip on the pace needed by his students. ",
+        "upvotes" : 0
+      }
+    },
+    "-KGDue1EEBRyAFq-zsnH" : {
+      "stats" : {
+        "difficulty" : 2,
+        "downvotes" : 0,
+        "engagement" : 4,
+        "helpfulness" : 4,
+        "overall" : 4,
+        "prof_name" : "Michael Kearns",
+        "review" : "Professor kearns is very knowledgeable and is a great teacher. He clearly knows a lot about networked systems, and he is able to convey this well to his students. I would highly recommend any students to take his class, Nets 112, A Networked Life.",
+        "upvotes" : 0
+      }
+    },
+    "-KGEAyES7ypcDn9FxveO" : {
+      "stats" : {
+        "difficulty" : 5,
+        "downvotes" : 0,
+        "engagement" : 4,
+        "helpfulness" : 5,
+        "overall" : 3,
+        "prof_name" : "Rakesh Vohra",
+        "review" : "He's a great professor, but the course is not always the same quality as the professor.",
+        "upvotes" : 0
+      }
+    },
+    "-KGECCjSwY5JysVh8mGN" : {
+      "stats" : {
+        "difficulty" : 5,
+        "downvotes" : 0,
+        "engagement" : 3,
+        "helpfulness" : 3,
+        "overall" : 3,
+        "prof_name" : "Aaron Roth",
+        "review" : "He sometimes makes the topic harder than what they really are. ",
+        "upvotes" : 0
+      }
+    },
+    "-KGEEuP4P33ErCANa7EI" : {
+      "stats" : {
+        "difficulty" : 2,
+        "downvotes" : 0,
+        "engagement" : 3,
+        "helpfulness" : 3,
+        "overall" : 3,
+        "prof_name" : "Michael Kearns",
+        "review" : "He could improve his engagement with the students.",
+        "upvotes" : 0
+      }
+    },
+    "-KGEFCt_ULNA72T_vjGW" : {
+      "stats" : {
+        "difficulty" : 3,
+        "downvotes" : 0,
+        "engagement" : 3,
+        "helpfulness" : 3,
+        "overall" : 3,
+        "prof_name" : "Stephanie Weirich",
+        "review" : "Professor could give more input on our performance.",
+        "upvotes" : 0
+      }
+    },
+    "-KGEH31MGu6JjZCzMy9N" : {
+      "stats" : {
+        "difficulty" : 4,
+        "downvotes" : 0,
+        "engagement" : 3,
+        "helpfulness" : 3,
+        "overall" : 4,
+        "prof_name" : "Chris Callison-Burch",
+        "review" : "This guy is a good professor. And a good father. He's also really hot. I'd hit. Sometimes the class is a bit dry.",
+        "upvotes" : 0
+      }
+    },
+    "-KGEPQcg6LjPEO94hHIf" : {
+      "stats" : {
+        "difficulty" : 3,
+        "downvotes" : 0,
+        "engagement" : 4,
+        "helpfulness" : 3,
+        "overall" : 2,
+        "prof_name" : "Rajiv Ghandi",
+        "review" : "Rajiv is a great professor and a great father.",
+        "upvotes" : 0
+      }
+    },
+    "-KGEVSMwnbbpK-755uUB" : {
+      "stats" : {
+        "difficulty" : 4,
+        "downvotes" : 0,
+        "engagement" : 3,
+        "helpfulness" : 4,
+        "overall" : 4,
+        "prof_name" : "Val Tannen",
+        "review" : "Val seems to be pretty scary at first, but he's actually a pretty great guy. Definitely not as much work as Rajiv, since he only gives one homework a week, but I would actually say that the difficulty is about the same.",
+        "upvotes" : 0
+      }
+    },
+    "-KGEWtJ95KzUzknkD43D" : {
+      "stats" : {
+        "difficulty" : 5,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 5,
+        "overall" : 5,
+        "prof_name" : "Rajiv Gandhi",
+        "review" : "Rajiv is an incredible professor, especially so for a class like CIS 160. He definitely expects a huge amount from his students, as seen with the two homeworks a week, but it's definitely worth while.",
+        "upvotes" : 0
+      }
+    },
+    "-KGEbf_zlcGldEKb6Jqj" : {
+      "stats" : {
+        "difficulty" : 4,
+        "downvotes" : 0,
+        "engagement" : 3,
+        "helpfulness" : 4,
+        "overall" : 4,
+        "prof_name" : "Benedict Brown",
+        "review" : "Dr.Brown is a very intelligent professors who puts a lot of effort into his teaching material. He is usually well aware of the students needs. However Dr.Brown tends to lecture a tad monotonously. His classes are very well put together however and this is usually not a big issue since the TAs are usually more than enough to fill in any gaps that you might have from missing class",
+        "upvotes" : 0
+      }
+    },
+    "-KGEbtqwbXObcL2UkJ__" : {
+      "stats" : {
+        "difficulty" : 4,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 4,
+        "overall" : 5,
+        "prof_name" : "Matt Blaze",
+        "review" : "Matt Blaze is an absolutely beast. Not only is he an engaging professor but he is very fair and reliable in a pinch. Definitely take a course with him if possible.",
+        "upvotes" : 0
+      }
+    },
+    "-KGF3UYS58xSpwA6y0_F" : {
+      "stats" : {
+        "difficulty" : 4,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 3,
+        "overall" : 4,
+        "prof_name" : "Robert Ghrist",
+        "review" : "Ghrist loves mathematics, and desires to see you love it too. He doesn't have a lot of room for those unwilling to put in the amount of effort he wants. He writes his own lectures and homework. ",
+        "upvotes" : 0
+      }
+    },
+    "-KGFAIONLbgez-ImU2sc" : {
+      "stats" : {
+        "difficulty" : 3,
+        "downvotes" : 0,
+        "engagement" : 5,
+        "helpfulness" : 5,
+        "overall" : 5,
+        "prof_name" : "Adam Grant",
+        "review" : "Adam Grant is incredible!!!",
+        "upvotes" : 0
+      }
+    },
+    "-KGFEALLAUdf6CN_NIJH" : {
+      "stats" : {
+        "difficulty" : 3,
+        "downvotes" : 0,
+        "engagement" : 2,
+        "helpfulness" : 4,
+        "overall" : 4,
+        "prof_name" : "CCB",
+        "review" : "He is good at teaching what he likes, but awful at coordinating CIS121.",
+        "upvotes" : 0
+      }
+    },
+    "undefined" : {
+      "upvotes" : "https://penn-prof-review.firebaseio.com/Review/undefined/review_id1"
+    }
+  },
+  "User" : {
+    "03d7bc0f-f91d-4937-abd4-2c22cb601f36" : {
+      "email" : "maale@seas.upenn.edu",
+      "username" : "alexma"
+    },
+    "056978bc-3869-4ae7-b6e3-e6ab80ccb92c" : {
+      "Rajiv Ghandi" : {
+        "review_id" : "-KG845WHu22-eGV3N7fM"
+      },
+      "email" : "jieguo@wharton.upenn.edu",
+      "username" : "redOneTwo"
+    },
+    "074282a9-1e22-4068-8d03-530d14d8772e" : {
+      "Steve Kimbrough" : {
+        "review_id" : "-KGDDWhVv6vnBPL51PkK"
+      },
+      "Steven Hahn" : {
+        "review_id" : "-KGDCe6EBN09CWK-WMKn"
+      },
+      "email" : "arnoldg@seas.upenn.edu",
+      "username" : "gma"
+    },
+    "08556136-2e72-4db2-95e4-4683c5eb3859" : {
+      "David Brainard" : {
+        "review_id" : "-KGDgPlPBQD_Xswu4wEF"
+      },
+      "Jean Gallier" : {
+        "review_id" : "-KGDRD844ez0dR6ccjd3"
+      },
+      "Rajiv Gandhi" : {
+        "review_id" : "-KGDRqs8YCraasrRK1YM"
+      },
+      "email" : "susanhao@sas.upenn.edu",
+      "username" : "susanhao"
+    },
+    "2331a25f-5b24-4d3a-8b35-07ef0506f592" : {
+      "email" : "alexwhit@seas.upenn.edu",
+      "username" : "alexwhit"
+    },
+    "3d40d837-832a-4f3a-b843-01c1b378c678" : {
+      "Chris Callison-Burch" : {
+        "review_id" : "-KG2tFbZRm-ik6dak39P"
+      },
+      "Sanjeev Khanna" : {
+        "review_id" : "-KG2t1TrTIcCiiHXsJy_"
+      },
+      "email" : "ryin@seas.upenn.edu",
+      "username" : "ryin"
+    },
+    "3e9a02e8-5595-4691-9f66-0654b4f5baa8" : {
+      "Aaron Roth" : {
+        "review_id" : "-KGECCjSwY5JysVh8mGN"
+      },
+      "Michael Kearns" : {
+        "review_id" : "-KGEEuP4P33ErCANa7EI"
+      },
+      "Rakesh Vohra" : {
+        "review_id" : "-KGEAyES7ypcDn9FxveO"
+      },
+      "Stephanie Weirich" : {
+        "review_id" : "-KGEFCt_ULNA72T_vjGW"
+      },
+      "email" : "mgaston@seas.upenn.edu",
+      "username" : "pedro"
+    },
+    "6053b644-8c53-44c0-b433-6c79b589ab2b" : {
+      "Adam Grant" : {
+        "review_id" : "-KGFAIONLbgez-ImU2sc"
+      },
+      "email" : "sandsa@wharton.upenn.edu",
+      "username" : "sandsa"
+    },
+    "660c5904-0779-4d5f-9d9a-d3b2ea18a461" : {
+      "CJ Taylor" : {
+        "review_id" : "-KGC_7b2HxreCXQs8l2c"
+      },
+      "Caroline Connoly" : {
+        "review_id" : "-KGCXk9vCyZxP_rl7LXw"
+      },
+      "Chris Callison-Burch" : {
+        "review_id" : "-KGCYJU2NmNfCGQ6saRg"
+      },
+      "Jean Gallier" : {
+        "review_id" : "-KGCXPjhTiyy8DP6R8cZ"
+      },
+      "Keith Neidermeier" : {
+        "review_id" : "-KGCY1bZYLSnzdsAbX_x"
+      },
+      "Manjita Mukharji" : {
+        "review_id" : "-KGCZgUOFnPHUViSWIbk"
+      },
+      "Mark Low" : {
+        "review_id" : "-KGCYugargE0hupEMI-N"
+      },
+      "Po-Ling Loh" : {
+        "review_id" : "-KGCX3GurDDueAepNXuL"
+      },
+      "Val Tannen" : {
+        "review_id" : "-KGCZJmIrtJQVJDCMMGX"
+      },
+      "email" : "madgel@seas.upenn.edu",
+      "username" : "madgel"
+    },
+    "6beb6956-8fe5-441d-b31c-fcf6aadcad81" : {
+      "Rajiv Gandhi" : {
+        "review_id" : "-KGEWtJ95KzUzknkD43D"
+      },
+      "Val Tannen" : {
+        "review_id" : "-KGEVSMwnbbpK-755uUB"
+      },
+      "email" : "davidcao@seas.upenn.edu",
+      "username" : "davidcao"
+    },
+    "70df4f72-75b2-4239-8780-11828ad7750f" : {
+      "Professor Rakesh Vohra" : {
+        "review_id" : "-KGA9Ll0Rp7r0orn4lSz"
+      },
+      "email" : "phamb@seas.upenn.edu",
+      "username" : "biancapham"
+    },
+    "79c6cb74-09c0-41ba-a643-21446a8b6b2b" : {
+      "CCB" : {
+        "review_id" : "-KGFEALLAUdf6CN_NIJH"
+      },
+      "email" : "tjason@sas.upenn.edu",
+      "username" : "jason"
+    },
+    "7c2758ab-2cf3-425f-9193-e881658580ab" : {
+      "email" : "brodylan@sas.upenn.edu",
+      "username" : "brodylan@sas.upenn.edu"
+    },
+    "85956672-348a-49e7-ac43-0eb282cfee99" : {
+      "Robert Ghrist" : {
+        "review_id" : "-KGF3UYS58xSpwA6y0_F"
+      },
+      "email" : "johnhew@seas.upenn.edu",
+      "username" : "johnhew"
+    },
+    "99e3d775-a8e8-418c-8b6d-5c600187ee2d" : {
+      "email" : "selmabel@seas.upenn.edu",
+      "username" : "selmabel"
+    },
+    "a7369722-f99e-4e00-b562-83172ac0cf3d" : {
+      "Benedict Brown" : {
+        "review_id" : "-KGEbf_zlcGldEKb6Jqj"
+      },
+      "Matt Blaze" : {
+        "review_id" : "-KGEbtqwbXObcL2UkJ__"
+      },
+      "email" : "alalani@sas.upenn.edu",
+      "username" : "nets213_al"
+    },
+    "c10419f0-85fc-4afd-bb65-abd4a5439b48" : {
+      "email" : "micwen@wharton.upenn.edu",
+      "username" : "mrdumdum"
+    },
+    "c9c4b163-e241-4af0-b494-c537fe62a007" : {
+      "Holger Sieg" : {
+        "review_id" : "-KGDsWlkDAQKIVE4iOqJ"
+      },
+      "Michael Kearns" : {
+        "review_id" : "-KGDue1EEBRyAFq-zsnH"
+      },
+      "Petra Todd" : {
+        "review_id" : "-KGDs--AqZOcAKlkQKqP"
+      },
+      "Renato Bettiol" : {
+        "review_id" : "-KGDts9Enf4IA_FQDYFe"
+      },
+      "email" : "mfogel@sas.upenn.edu",
+      "username" : "mfogel"
+    },
+    "d13f3a43-e2d1-469f-b159-64c2fecf5590" : {
+      "Santosh Venkatesh" : {
+        "review_id" : "-KGDIFvRs9hz58j56JGT"
+      },
+      "Tom Cassel" : {
+        "review_id" : "-KGDHaNl0JIwzyIAacZ4"
+      },
+      "Zack Ives" : {
+        "review_id" : "-KGDHGExTRjYzdMVG7QF"
+      },
+      "email" : "lsilb@seas.upenn.edu",
+      "username" : "lsilb"
+    },
+    "dc2047c4-8f9a-4d34-b0e7-9775df29fd7d" : {
+      "email" : "sartang@sas.upenn.edu",
+      "username" : "sarahtang"
+    },
+    "de22ea26-f5ba-48a9-a892-61ffdedb05da" : {
+      "Chris Murphy" : {
+        "review_id" : "-KGBBiZZ3vlRJMVCkA4K"
+      },
+      "Rajiv Gandhi" : {
+        "review_id" : "-KGBC0bpnS4x36Kmg7E7"
+      },
+      "email" : "ankitac@seas.upenn.edu",
+      "username" : "ankitac"
+    },
+    "e1aec2c9-a2a1-4c50-98ce-5d070563b7ab" : {
+      "Chris Callison-Burch" : {
+        "review_id" : "-KGEH31MGu6JjZCzMy9N"
+      },
+      "Rajiv Ghandi" : {
+        "review_id" : "-KGEPQcg6LjPEO94hHIf"
+      },
+      "email" : "pasdlfadskj@seas.upenn.edu",
+      "username" : "paluter"
+    },
+    "eb485f27-b835-4644-9ab1-b0b57796c6ba" : {
+      "email" : "soniali@wharton.upenn.edu",
+      "username" : "sonia"
+    },
+    "fc480760-8cb9-496d-9703-8fae9ad1b0eb" : {
+      "Abba Krieger" : {
+        "review_id" : "-KGDi2pRzugTv8KFVzor"
+      },
+      "Michael Weisberg" : {
+        "review_id" : "-KGDicmvldFBsDJh9I8c"
+      },
+      "email" : "maale@sas.upenn.edu",
+      "username" : "alexma"
+    },
+    "fd61ff7a-09b1-4679-b7e3-e1f52cd415b3" : {
+      "email" : "jchangc@seas.upenn.edu",
+      "username" : "jchangc"
+    },
+    "fd860b07-4bd3-43ed-a825-597d5983e06f" : {
+      "Sanjeev Khanna" : {
+        "review_id" : "-KG5wgCfHYSIlMShOY-f"
+      },
+      "email" : "zhusteph@wharton.upenn.edu",
+      "username" : "zhusteph"
+    },
+    "ff082deb-2aab-4ab3-8dd9-0cf122d1a8db" : {
+      "Luke Taylor" : {
+        "review_id" : "-KG8y69u6tWBACYUehIU"
+      },
+      "email" : "mantrys@seas.upenn.edu",
+      "username" : "sman"
+    }
+  }
+}
