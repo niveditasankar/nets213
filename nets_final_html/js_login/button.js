@@ -18,6 +18,7 @@ function register(){
 		  if (error) {
 		  	//window.alert("fail :(");
 		    console.log("Error creating user:", error);
+		    window.alert("Registration failed!");
 		  } else {
 		  	var usersRef = ref.child("User");
 			usersRef.child(userData.uid).set({
@@ -46,6 +47,7 @@ function login(){
 	  if (error) {
 	  	//window.alert("fail :(");
 	    console.log("Login Failed!", error);
+	    window.alert("Login Failed!");
 	  } else {
 	  	window.alert("Successful login!");
 	  	document.getElementById("loginId").innerHTML="Logout";

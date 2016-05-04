@@ -99,7 +99,7 @@ function pullInfo() {
 						  			in_div_review.setAttribute("id", r_id+"_rscore");
 						  			in_div_review.innerHTML = "Review Score: ";
 						  		
-						  			var button_up = document.createElement("button");
+						  			var button_up = document.createElement("input");
 						  			// button_up.setAttribute("onclick", "upvote()");
 						  			button_up.setAttribute("class", "vote_button");
 						  			button_up.setAttribute("id", r_id+"_up_id");
@@ -114,17 +114,25 @@ function pullInfo() {
 						  			linebreak = document.createElement("br");
 
 						  			button_up.setAttribute("type", "button");
+						  			button_down.setAttribute("type", "button");
 
 						  			//upvote & downvote buttons
-						  			var upvote = function() {
-						  				window.alert("hi there");
-						  				//data_Ref({ "stats/upvotes": dataSnapshot.child("upvotes").val() + 1 });
+						  			// var upvote = function() {
+						  			// 	//window.alert("hi there");
+						  			// 	//data_Ref({ "stats/upvotes": dataSnapshot.child("upvotes").val() + 1 });
+						  			// };
+
+
+						  			//button_up.setAttribute("onclick", "upvote();");
+						  			button_up.onclick = function() {
+						  				data_Ref({ "stats/upvotes": dataSnapshot.child("upvotes").val() + 1 });
 						  			};
 
-						  			button_up.setAttribute("onclick", "upvote();")
-						  			button_up.onclick = function() {
-						  				window.alert("hi there");
-						  			}
+						  			button_down.onclick = function() {
+						  				data_Ref({ "stats/downvotes": dataSnapshot.child("downvotes").val() + 1 });
+						  			};
+
+						  			//window.alert("hello1");
 
 
 
@@ -155,8 +163,11 @@ function pullInfo() {
 						  			in_div_review.innerHTML = in_div_review.innerHTML + "<br/>";
 						  			in_div_review.innerHTML = in_div_review.innerHTML + "Review: " + review_text;
 
-						  		
-						  			(document.getElementById("reviews-parent-id")).appendChild(in_div_review);
+						  			
+						  			if (upvote_score > downvote_score-10) {
+						  				(document.getElementById("reviews-parent-id")).appendChild(in_div_review);
+						  			}
+						  			
 
 						  			//appending line
 
